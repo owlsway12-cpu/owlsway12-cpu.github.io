@@ -6,7 +6,7 @@ This comment must remain at the top in all cases - it will not be visible on fin
   
  
 body {
-background: url("https://i.pinimg.com/736x/f5/51/e6/f551e6cdbf9c799232f3cbb0d7741c84.jpg") fixed;
+background: url("https://i.postimg.cc/G3krW1dr/Untitled-design.webp") fixed;
 background-repeat: no-repeat;
 background-size: cover;
 color: #000;
@@ -171,7 +171,7 @@ border: 1px solid #000;
   
 .table, .item {
 border: 1px solid #000;
-background: #FFFFFF;
+background: #D9D2E9;
 border-collapse: separate;
 }
  
@@ -182,24 +182,24 @@ border: 0px solid #000;
  
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
-background: #FFFFFF;
+background: #D9D2E9;
 color: #000;
 }
  
 .cave-grid, div .left, .mound-grid {
 border: 1px solid #000;
-background: #FFFFFF;
+background: #D9D2E9;
 color: #000;
 }
  
 .table .left {
 border: 1px solid #000;
-background: #FFFFFF;
+background: #D9D2E9;
 color: #000;
 }
  
 .inner-table .right {
-background: #FFFFFF;
+background: #D9D2E9;
 border: 1px solid #000;
 border-left: none;
 }
