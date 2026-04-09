@@ -49,7 +49,7 @@ color: #000000;
 /* Topbar */
   
 .topbar {
-background: rgb(235,76,76);
+background: rgb(255,255,255);
 border: 1px solid #000;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
@@ -90,7 +90,7 @@ border-right: 1px solid #000;
 /* Sidebar */
   
 .sidebar {
-background: rgba(235,76,76);
+background: rgba(255,255,255);
 border: 0px solid #000;
 border-bottom: 1px solid #000;
 border-left: 1px solid #000;
@@ -98,17 +98,17 @@ color: #000;
 }
   
 .col-md-3 .panel {
-background: rgb(40,81,108);
+background: rgb(255,255,255);
 border: 1px solid #000;
 box-shadow: none;    
 }
   
 .progress-bar {
-background: #FFB3AC;
+background: #FFFFFF;
 }
   
 .progress {
-background: #28516C;
+background: #FFFFFF;
 border: 1px solid #000;
 }
   
@@ -131,13 +131,13 @@ background: none;
  
 .alert-danger {
 color: #000;
-background: rgb(235,76,76);
+background: rgb(255,255,255);
 border: 1px solid #000;
 }
  
 .alert-success {
 color: #000;
-background: rgb(40,81,108);
+background: rgb(255,255,255);
 border: 1px solid #000;
 }
  
