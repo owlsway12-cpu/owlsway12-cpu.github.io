@@ -171,7 +171,7 @@ border: 1px solid #000;
   
 .table, .item {
 border: 1px solid #000;
-background: #D9D2E9;
+background: #CFE2F3;
 border-collapse: separate;
 }
  
@@ -182,7 +182,7 @@ border: 0px solid #000;
  
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
-background: #D9D2E9;
+background: #CFE2F3;
 color: #000;
 }
  
