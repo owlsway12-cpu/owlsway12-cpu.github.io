@@ -4,11 +4,17 @@ You may edit and use this code for personal or commercial use.
 This comment must remain at the top in all cases - it will not be visible on final upload.
 */
   
- 
+ /* FONT (From Google Fonts) */
+
+
+@import url('FONT URL');
+
 body {
 background: url("https://i.postimg.cc/s2y5JzjJ/Untitled-design-(1).webp") fixed;
 background-repeat: no-repeat;
 background-size: cover;
+  /* FONT NAME HERE */
+font-family: 'Caveat';
 color: #000;
 }
  
