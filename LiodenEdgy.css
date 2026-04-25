@@ -15,7 +15,7 @@ background-repeat: no-repeat;
 background-size: cover;
   /* FONT NAME HERE */
 font-family: 'Caveat';
-color: #000;
+color: #941761;
 }
  
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
@@ -213,7 +213,7 @@ border-left: none;
 
 
 h1 {
-	color: #D9D2E9;
+	color: #941761;
 	font-size: 90px;
 	text-align: center;
         font-family: 'Caveat'
@@ -226,7 +226,7 @@ h1 {
 
 
 h2 {
-	color: #CFE2F3;
+	color: #941761;
 	font-size: 24px;
 	text-align: center
 }
@@ -238,7 +238,7 @@ h2 {
 
 
 h3 {
-	color: #FFFFFF !important;
+	color: #941761 !important;
 	font-size: 14px !important
 }
 
