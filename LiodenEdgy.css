@@ -15,7 +15,7 @@ background-repeat: no-repeat;
 background-size: cover;
   /* FONT NAME HERE */
 font-family: 'Caveat';
-color: #000000;
+color: #000;
 }
  
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
@@ -209,7 +209,10 @@ background: #D9D2E9;
 border: 1px solid #000;
 border-left: none;
 }
+ 
+ 
 
+ 
 /* 
 CSS template originally created and presented by Kraft (#738/#1105)
 */
