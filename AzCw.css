@@ -5,12 +5,12 @@ This comment must remain at the top in all cases - it will not be visible on fin
 */
   
  /* FONT (From Google Fonts) */
-@import url('https://fonts.googleapis.com/css2?family=Caveat');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda');
 body {
 background: url("https://i.pinimg.com/736x/0f/8f/80/0f8f8095faec17fbba9321b8934063d3.jpg") fixed;
 background-repeat: no-repeat;
 background-size: cover;
-  font-family: 'Caveat';
+  font-family: 'Bodoni Moda';
 color: #000;
 }
  
