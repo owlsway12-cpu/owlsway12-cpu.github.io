@@ -27,7 +27,7 @@ border-bottom: 1px solid #000;
  
 /* Buttons */
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: #CFE2F3;
+background: #081366;
 color: #000;
 border: 1px solid #000;
 text-shadow: none;
@@ -51,27 +51,27 @@ color: #000000;
 /* Topbar */
   
 .topbar {
-background: rgb(255,255,255);
+background: rgb(191,144,0);
 border: 1px solid #000;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 }
  
 .badge {
-background: rgb(207,226,243);
+background: rgb(8,19,102);
 border: 1px solid #000;
 }
   
 /* Navigational Bar */
   
 .main {
-background: rgba(207,226,243, 0.46);
+background: rgba(8,19,102, 0.46);
 border: 1px solid #000;
 box-shadow: none;
 }
   
 .navbar {
-background: #CFE2F3;
+background: #081366;
 border-bottom: 1px solid #000;
 color: #000;
 }
@@ -82,7 +82,7 @@ color: #000;
   
 .navbar-default .navbar-nav li a:hover {
 color: #000;
-background: #CFE2F3;
+background: #081366;
 border-left: 1px solid #000;
 border-right: 1px solid #000;
 } 
@@ -92,7 +92,7 @@ border-right: 1px solid #000;
 /* Sidebar */
   
 .sidebar {
-background: rgba(255,255,255, 0.46);
+background: rgba(191,144,0, 0.46);
 border: 0px solid #000;
 border-bottom: 1px solid #000;
 border-left: 1px solid #000;
@@ -100,17 +100,17 @@ color: #000;
 }
   
 .col-md-3 .panel {
-background: rgb(255,255,255, 0.46);
+background: rgb(191,144,0, 0.46);
 border: 1px solid #000;
 box-shadow: none;    
 }
   
 .progress-bar {
-background: #CFE2F3;
+background: #081366;
 }
   
 .progress {
-background: #FFFFFF;
+background: #bf9000;
 border: 1px solid #000;
 }
   
@@ -118,7 +118,7 @@ border: 1px solid #000;
 /* Chat */
   
 .chat_light, .chat_dark {
-background: rgb(207,226,243);
+background: rgb(8,19,102);
 font-size: 11px;
 color: #000;
 }
@@ -133,18 +133,18 @@ background: none;
  
 .alert-danger {
 color: #000;
-background: rgb(255,255,255);
+background: rgb(191,144,0);
 border: 1px solid #000;
 }
  
 .alert-success {
 color: #000;
-background: rgb(255,255,255);
+background: rgb(191,144,0);
 border: 1px solid #000;
 }
  
 .breadcrumb {
-background:  #CFE2F3;
+background:  #081366;
 font-size: 13px;
 border: 1px solid #000;
 }
@@ -173,7 +173,7 @@ border: 1px solid #000;
   
 .table, .item {
 border: 1px solid #000;
-background: #CFE2F3;
+background: #081366;
 border-collapse: separate;
 }
  
@@ -184,24 +184,24 @@ border: 0px solid #000;
  
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
-background: #CFE2F3;
+background: #081366;
 color: #000;
 }
  
 .cave-grid, div .left, .mound-grid {
 border: 1px solid #000;
-background: #D9D2E9;
+background: #23319C;
 color: #000;
 }
  
 .table .left {
 border: 1px solid #000;
-background: #D9D2E9;
+background: #23319C;
 color: #000;
 }
  
 .inner-table .right {
-background: #D9D2E9;
+background: #23319C;
 border: 1px solid #000;
 border-left: none;
 }
@@ -235,7 +235,7 @@ h2 {
 
 
 h3 {
-	color: #20124D !important;
+	color: #BF9000 !important;
 	font-size: 14px !important
 }
  
