@@ -4,11 +4,13 @@ You may edit and use this code for personal or commercial use.
 This comment must remain at the top in all cases - it will not be visible on final upload.
 */
   
- 
+ /* FONT (From Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Caveat');
 body {
 background: url("https://i.pinimg.com/736x/0f/8f/80/0f8f8095faec17fbba9321b8934063d3.jpg") fixed;
 background-repeat: no-repeat;
 background-size: cover;
+  font-family: 'Caveat';
 color: #000;
 }
  
@@ -204,7 +206,39 @@ border: 1px solid #000;
 border-left: none;
 }
  
+  /* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #962B4A;
+	font-size: 70px;
+	text-align: center;
+        font-family: 'Caveat'
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #406FA8;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #20124D !important;
+	font-size: 14px !important
+}
  
+
 
  
 /* 
