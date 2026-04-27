@@ -73,13 +73,13 @@ td.bottom {
 background:#23319C!important;color:#BF9000!important;text-align:center;
 }
    
-.main {
+
+/* Navigational Bar */
+  .main {
 background: rgba(8,19,102, 0.46);
 border: 1px solid #000;
 box-shadow: none;
 }
-/* Navigational Bar */
-  
 .navbar {
 background: #081366;
 border-bottom: 1px solid #000;
