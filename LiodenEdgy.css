@@ -61,16 +61,23 @@ border-bottom-right-radius: 10px;
 background: rgb(8,19,102);
 border: 1px solid #000;
 }
-
-h1 {color:#011321!important;text-align:center;font-family: 'Caveat';font-size:45px;text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);}
-
-h1 small{color:#011321!important;text-align:center;font-family: 'Caveat';font-size:20px;text-shadow: 1px 0px 8px rgba(255, 255, 255, 0.8);}
  
-h2 {color:#011321!important;text-align:center;font-family: 'Caveat';font-size:25px;text-shadow: 1px 0px 8px rgba(255, 255, 255, 0.8);}
+td.top {
+background:#1E303E!important;color:#E1EEF0!important;text-align:center;
+}
  
-h3 {color:#011321!important;font-family:'Caveat';font-size:30px!important;text-shadow: 1px 0px 8px rgba(255, 255, 255, 0.8);}
+th {
+background:#1E303E!important;color:#E1EEF0!important;text-align:center;
+}
+ 
+td.bottom {
+background:#1E303E!important;color:#E1EEF0!important;text-align:center;
+}
 
-  
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+    text-decoration: none;
+}
+ 
 /* Navigational Bar */
   
 .main {
