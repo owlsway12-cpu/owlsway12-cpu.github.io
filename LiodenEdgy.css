@@ -134,7 +134,36 @@ background: rgb(8,19,102);
 font-size: 11px;
 color: #000;
 }
- 
+ /* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #BF9000 !important;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #BF9000 !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #081366 !important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #081366 !important;
+}
+
+
+
 .chatContainer {
 border: 1px solid #000;
 }
