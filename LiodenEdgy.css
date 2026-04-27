@@ -177,7 +177,22 @@ color: #000;
 background: rgb(255,242,204);
 border: 1px solid #000;
 }
- 
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #ffffff !important
+}
+
 .breadcrumb {
 background:  #081366;
 font-size: 13px;
@@ -192,6 +207,20 @@ border: 1px solid #000;
 }
 /* BOOKMARK BUTTON */
 
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.postimg.cc/JnHQ9nQM/image-(3).webp')
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.postimg.cc/JnHQ9nQM/image-(3).webp') !important
+}
 
 input.floatright, input.floatright:hover {
 	background: rgba(1, 1, 1, 0.5) !important;
