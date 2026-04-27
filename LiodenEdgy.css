@@ -291,38 +291,6 @@ background: #23319C;
 border: 1px solid #000;
 border-left: none;
 }
- /* BIGGEST HEADER ("___"'s DEN) */
-
-h1 {
-	color: #BF9000;
-	font-size: 70px;
-	text-align: center;
-        font-family: 'Caveat'
-}
-
-
-
-
-/* MEDIUM HEADER */
-
-
-h2 {
-	color: #406FA8;
-	font-size: 24px;
-	text-align: center
-}
-
-
-
-
-/* SMALL HEADER */
-
-
-h3 {
-	color: #BF9000 !important;
-	font-size: 14px !important
-}
- 
 
  
 /* 
