@@ -61,6 +61,18 @@ border-bottom-right-radius: 10px;
 background: rgb(174,62,26);
 border: 1px solid #000;
 }
+
+td.top {
+background:#F5DDC5!important;color:#080402!important;text-align:center;
+}
+ 
+th {
+background:#F5DDC5!important;color:#080402!important;text-align:center;
+}
+ 
+td.bottom {
+background:#F5DDC5!important;color:#080402!important;text-align:center;
+}
   
 /* Navigational Bar */
   
@@ -92,7 +104,7 @@ border-right: 1px solid #000;
 /* Sidebar */
   
 .sidebar {
-background: rgba(223,199,167);
+background: rgba(223,199,167, 0.46);
 border: 0px solid #000;
 border-bottom: 1px solid #000;
 border-left: 1px solid #000;
@@ -100,7 +112,7 @@ color: #000;
 }
   
 .col-md-3 .panel {
-background: rgb(223,199,167);
+background: rgb(245,221,197);
 border: 1px solid #000;
 box-shadow: none;    
 }
@@ -110,7 +122,7 @@ background: #AE3E1A;
 }
   
 .progress {
-background: #DFC7A7;
+background: #F5DDC5;
 border: 1px solid #000;
 }
   
@@ -118,7 +130,7 @@ border: 1px solid #000;
 /* Chat */
   
 .chat_light, .chat_dark {
-background: rgb(245,221,197);
+background: rgb(174,62,26);
 font-size: 11px;
 color: #000;
 }
@@ -133,13 +145,13 @@ background: none;
  
 .alert-danger {
 color: #000;
-background: rgb(223,199,167);
+background: rgb(45,221,197);
 border: 1px solid #000;
 }
  
 .alert-success {
 color: #000;
-background: rgb(223,199,167);
+background: rgb(45,221,197);
 border: 1px solid #000;
 }
  
