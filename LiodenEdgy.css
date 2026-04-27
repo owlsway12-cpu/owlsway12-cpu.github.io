@@ -36,18 +36,7 @@ color: #000;
 border-bottom: 1px solid #000;
 }
  
-/* Buttons */
-input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: #081366;
-color: #000;
-border: 1px solid #000;
-text-shadow: none;
-font-weight: bold;
-font-size: 14px;
-border-radius: 5px;
-}
-  
-  
+
 /* Topbar */
   
 .topbar {
