@@ -241,6 +241,14 @@ background: none;
 border: 0px solid #000;
 }
 
+	/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #BF9000 !important;
+        text-shadow: none !important
+
+
 /* Tables */
   
 #lion_image {
