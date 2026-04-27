@@ -170,9 +170,13 @@ font-size: 13px;
 border: 1px solid #000;
 }
   
-.breadcrumb>.active {
-color: #000;
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #BF9000
 }
+
   
 h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: "Carter One";
