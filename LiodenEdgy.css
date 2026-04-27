@@ -213,20 +213,6 @@ color: #000;
 background: none;
 border: 0px solid #000;
 }
-  /* LIODEN LOGO REPLACER */
-
-
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.postimg.cc/JnHQ9nQM/image-(3).webp')
-}
-
-
-/* CAVE / MOUND IMAGES */
-
-
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.postimg.cc/JnHQ9nQM/image-(3).webp') !important
-}
 
 /* Tables */
   
