@@ -74,8 +74,6 @@ td.bottom {
 background:#23319C!important;color:#BF9000!important;text-align:center;
 }
 
-.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited, .table .bottom a:link, .table .bottom a:active, .table .bottom a:visited {border-bottom: 0px solid; color: #437192!important;}
-
  
 /* Navigational Bar */
   
@@ -90,7 +88,15 @@ background: #081366;
 border-bottom: 1px solid #000;
 color: #000;
 }
-  
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #BF9000 !important
+}
+
+
 .navbar-default .navbar-nav > li > a {
 color: #000;
 }
