@@ -176,6 +176,14 @@ border: 1px solid #000;
 .breadcrumb .active {
 	color: #BF9000
 }
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #BF9000 !important; 
 
   
 h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
