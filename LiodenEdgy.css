@@ -17,6 +17,17 @@ color: #000;
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
 color: #000;
 }
+/* TOPBAR ("Welcome back, ___") */
+
+
+.topbar {
+	background: rgba(1, 1, 1, 0.5);
+	border: none;
+	border-top: none;
+	color: #BF9000;
+	border-radius: 0px;
+}
+
  
 h1, h3 , .sidebar h3 {
 font-family: Arial !important;
