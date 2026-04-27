@@ -134,7 +134,11 @@ background: #081366;
 background: #FFF2CC;
 border: 1px solid #000;
 }
-  
+  /* ENERGY BAR TEXT */
+.progress div {
+	color: #BF9000 !important
+}
+
   
 /* Chat */
   
