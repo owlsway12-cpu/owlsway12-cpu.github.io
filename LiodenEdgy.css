@@ -119,6 +119,16 @@ border-left: 1px solid #000;
 color: #000;
 }
   
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #BF9000 !important;
+        font-size: 26px !important;
+        font-family: 'FONT NAME'
+}
+
 .col-md-3 .panel {
 background: rgb(191,144,0, 0.5);
 border: 1px solid #000;
