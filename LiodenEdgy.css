@@ -252,6 +252,38 @@ color: #000;
 background: none;
 border: 0px solid #000;
 }
+	/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template by Ace Attorney (#506560)";
+        color: #000000;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
 
 	/* Copyright, Terms of Service, CoC, etc. */
 
