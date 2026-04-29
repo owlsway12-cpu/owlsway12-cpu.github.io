@@ -67,6 +67,11 @@ background: #FFF2CC;
 .progress {
 @@ -133,114 +133,114 @@
 
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
 .alert-danger {
 color: #000;
 background: rgb(191,144,0);
