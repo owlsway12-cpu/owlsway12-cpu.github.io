@@ -63,35 +63,37 @@ border: 1px solid #000;
 }
 
 td.top {
+background:#1E303E!important;color:#E1EEF0!important;text-align:center;
 background:#23319C!important;color:#BF9000!important;text-align:center;
 }
 
 th {
+background:#1E303E!important;color:#E1EEF0!important;text-align:center;
 background:#23319C!important;color:#BF9000!important;text-align:center;
 }
 
 td.bottom {
+background:#1E303E!important;color:#E1EEF0!important;text-align:center;
 background:#23319C!important;color:#BF9000!important;text-align:center;
 }
 
-.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited, .table .bottom a:link, .table .bottom a:active, .table .bottom a:visited {border-bottom: 0px solid; color: #437192!important;}
-
+.table .bottom a:link, .table .bottom a:visited, .table .bottom a:active {
+    text-decoration: none;
+}
 
 /* Navigational Bar */
 
-@@ -90,172 +88,180 @@
+.main {
+background: rgba(8,19,102, 0.46);
+border: 1px solid #000;
+box-shadow: none;
+}
+
+.navbar {
+background: #081366;
 border-bottom: 1px solid #000;
 color: #000;
 }
-  
-
-/* NAVBAR BUTTON TEXT COLOR */
-
-
-.navbar li a {
-	color: #BF9000 !important
-}
-
 
 .navbar-default .navbar-nav > li > a {
 color: #000;
