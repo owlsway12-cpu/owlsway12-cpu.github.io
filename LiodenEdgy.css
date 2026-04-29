@@ -75,7 +75,7 @@ background:#23319C!important;color:#BF9000!important;text-align:center;
    
 
 /* Navigational Bar */
-.container.main {
+.main {
 	background: rgba(8,19,102, 0.5);
 	border: none;
 	box-shadow: none;
