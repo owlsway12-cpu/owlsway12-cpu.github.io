@@ -69,7 +69,7 @@ background: #FFF2CC;
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #BF9000 !important
 }
 
 .alert-danger {
@@ -124,6 +124,17 @@ border-collapse: separate;
 background: none;
 border: 0px solid #000;
 }
+	/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: rgba(1, 1, 1, 0.5) !important;
+	color: #BF9000 !important;
+	border-radius: 0px
+}
+
 
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
