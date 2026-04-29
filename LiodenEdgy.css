@@ -13,17 +13,30 @@ background-size: cover;
  font-family: 'Caveat';
 color: #000;
 }
+ 
 
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
 color: #000;
 }
+/* TOPBAR ("Welcome back, ___") */
 
+
+.topbar {
+	background: rgba(1, 1, 1, 0.5);
+	border: none;
+	border-top: none;
+	color: #BF9000;
+	border-radius: 0px;
+}
+
+ 
 h1, h3 , .sidebar h3 {
 font-family: Arial !important;
 text-align: left;
 color: #000;
 border-bottom: 1px solid #000;
 }
+ 
 
 /* Buttons */
 input[type="button"], input[type="submit"], input[type="submit"]:hover {
@@ -47,6 +60,202 @@ color: #000000;
 border-bottom: 1px solid #000000;
 color: #000000;
 }
+
+/* Topbar */
+  
+
+.topbar {
+background: rgb(255,242,204);
+border: 1px solid #000;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+ 
+
+.badge {
+background: rgb(8,19,102);
+border: 1px solid #000;
+}
+
+/* Buttons */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+background: #081366;
+color: #000;
+border: 1px solid #000;
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+border-radius: 5px;
+}
+td.top {
+background:#23319C!important;color:#BF9000!important;text-align:center;
+}
+ 
+
+th {
+background:#23319C!important;color:#BF9000!important;text-align:center;
+}
+ 
+
+td.bottom {
+background:#23319C!important;color:#BF9000!important;text-align:center;
+}
+   
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited, .table .bottom a:link, .table .bottom a:active, .table .bottom a:visited {border-bottom: 0px solid; color: #437192!important;}
+
+
+/* Navigational Bar */
+.main {
+	background: rgba(8,19,102, 0.5);
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+.navbar {
+background: #081366;
+@@ -90,172 +88,180 @@
+border-bottom: 1px solid #000;
+color: #000;
+}
+  
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+@@ -99,254 +96,168 @@
+.navbar-default .navbar-nav > li > a {
+color: #000;
+}
+  
+
+.navbar-default .navbar-nav li a:hover {
+color: #000;
+background: #081366;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+} 
+  
+  
+  
+
+
+
+/* Sidebar */
+  
+
+.sidebar {
+background: rgba(35,49,156, 0.5);
+background: rgba(35,49,156, 0.46);
+border: 0px solid #000;
+border-bottom: 1px solid #000;
+border-left: 1px solid #000;
+color: #000;
+}
+  
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #BF9000 !important;
+        font-size: 26px !important;
+        font-family: 'Caveat'
+}
+
+.col-md-3 .panel {
+background: rgb(191,144,0, 0.5);
+background: rgb(191,144,0, 0.46);
+border: 1px solid #000;
+box-shadow: none;    
+}
+  
+
+.progress-bar {
+background: #081366;
+}
+  
+
+.progress {
+background: #FFF2CC;
+border: 1px solid #000;
+}
+  /* ENERGY BAR TEXT */
+.progress div {
+	color: #BF9000 !important
+}
+
+  
+
+/* Chat */
+  
+
+.chat_light, .chat_dark {
+background: rgb(8,19,102);
+font-size: 11px;
+color: #000;
+}
+ /* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #BF9000 !important;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #BF9000 !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #081366 !important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #081366 !important;
+}
+
+
+
+.chatContainer {
+border: 1px solid #000;
+}
+  
+
+.userstolen {
+background: none;
+}
+ /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: rgba(1, 1, 1, 0.5) !important;
+	color: #BF9000 !important;
+	border-radius: 0px
+}
+
+.alert-danger {
+color: #000;
+background: rgb(255,242,204);
+border: 1px solid #000;
+}
+ 
+
+.alert-success {
+color: #000;
+background: rgb(255,242,204);
+border: 1px solid #000;
+}
 /* LINK COLOR */
 
 
@@ -63,112 +272,125 @@ a:hover {
 	color: #BF9000 !important
 }
 
-
-/* Topbar */
-
-.topbar {
-background: rgb(191,144,0);
-background: rgb(255,242,204);
-border: 1px solid #000;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-@@ -106,7 +106,7 @@
-}
-
-.progress-bar {
-background: #081366;
-background: #FFF2CC;
-}
-
-.progress {
-@@ -133,114 +133,114 @@
-
-/* ENERGY BAR TEXT */
-.progress div {
-	color: #BF9000 !important
-}
-
-.alert-danger {
-color: #000;
-background: rgb(191,144,0);
-background: rgb(255,242,204);
-border: 1px solid #000;
-}
-
-.alert-success {
-color: #000;
-background: rgb(191,144,0);
-background: rgb(255,242,204);
-border: 1px solid #000;
-}
-
 .breadcrumb {
 background:  #081366;
 font-size: 13px;
 border: 1px solid #000;
 }
+  
+/* BREADCRUMB TEXT */
 
+
+.breadcrumb .active {
+	color: #BF9000
 .breadcrumb>.active {
 color: #000;
 }
+/* BOOKMARK BUTTON */
 
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #BF9000 !important; 
+
+  
 h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Caveat";
 font-family: "Carter One";
 color: #000;
 }
+  
 
 .col-md-9 {
 background: none;
 border: 0px solid #000;
 }
+	/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template by Ace Attorney (#506560)";
+        color: #000000;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+	/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #BF9000 !important;
+        text-shadow: none !important
+
 
 /* Tables */
+  
 
 #lion_image {
 border-radius: 25px;
 overflow: hidden;
 border: 1px solid #000;
 }
+  
 
 .table, .item {
 border: 1px solid #000;
 background: #081366;
 border-collapse: separate;
 }
+ 
 
 .table .right, .table .right_odd {
 background: none;
 border: 0px solid #000;
 }
-	/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
-
-
-.top,
-.bottom,
-th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #BF9000 !important;
-	border-radius: 0px
-}
-
+ 
 
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
 border: 0px solid #000;
 background: #081366;
 color: #000;
 }
+ 
 
 .cave-grid, div .left, .mound-grid {
 border: 1px solid #000;
 background: #23319C;
 color: #000;
 }
+ 
 
 .table .left {
 border: 1px solid #000;
 background: #23319C;
 color: #000;
 }
+ 
 
 .inner-table .right {
 background: #23319C;
@@ -211,6 +433,7 @@ h3 {
 
 
 
+ 
 /* 
 CSS template originally created and presented by Kraft (#738/#1105)
 */
