@@ -1,212 +1,434 @@
-/* 
-CSS template originally created and presented by Kraft (#738/#1105)
-You may edit and use this code for personal or commercial use.
-This comment must remain at the top in all cases - it will not be visible on final upload.
-*/
-  
+@import "https://fonts.googleapis.com/css?family=Satisfy";
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
+.boxcontainer {
+background: none;
+margin-left: auto;
+margin-right: auto;
+width: 620px;
+height: auto;
+}
+
+.scrollBoxLeft, .scrollBoxRight, .scrollBoxCenter {
+background: rgba(99, 92, 142, 0.4);
+width: 300px;
+height: 400px;
+border: 0px dashed #FFFFFF;
+border-radius: 10px;
+padding: 1px;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 1%;
+overflow: auto;
+}
+
+.scrollBoxLeft {
+  float: left;
+}
+
+.scrollBoxRight {
+  float: right;
+}
+
+.scrollBoxCenter {
+  float: center;
+}
+
+
+::-webkit-scrollbar {
+width: 10px;}
  
-body {
-background: url("https://i.pinimg.com/1200x/4a/c2/4b/4ac24bd3b5407b5328f5c029377011df.jpg") fixed;
-background-repeat: no-repeat;
-background-size: cover;
-color: #000;
-}
+::-webkit-scrollbar-track {
+background-color: #D38E95;}
  
-.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
-color: #000;
+::-webkit-scrollbar-thumb {
+background-color: #E9A497;
+border-radius: 0px;
+border: none;}
+
+
+body 
+{
+background:url('https://i.imgur.com/JqMrGH7.png');
+background-attachment:fixed;
+background-size:100%;
+color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.8);
 }
- 
-h1, h3 , .sidebar h3 {
-font-family: Arial !important;
-text-align: left;
-color: #000;
-border-bottom: 1px solid #000;
-}
- 
-/* Buttons */
-input[type="button"], input[type="submit"], input[type="submit"]:hover {
-background: #C4F0CD;
-color: #000;
-border: 1px solid #000;
-text-shadow: none;
-font-weight: bold;
-font-size: 14px;
-border-radius: 5px;
-}
-  
-  
-/* Links */
-  
-.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
-color: #000000;
-}
-  
-.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
-border-bottom: 1px solid #000000;
-color: #000000;
-}
-  
-/* Topbar */
-  
-.topbar {
-background: rgb(200, 245, 212);
-border: 1px solid #000;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-}
- 
-.badge {
-background: rgb(200, 245, 212);
-border: 1px solid #000;
-}
-  
-/* Navigational Bar */
-  
-.main {
-background: rgba(200, 245, 212, 0.46);
-border: 1px solid #000;
-box-shadow: none;
-}
-  
-.navbar {
-background: #C4F0CD;
-border-bottom: 1px solid #000;
-color: #000;
-}
-  
-.navbar-default .navbar-nav > li > a {
-color: #000;
-}
-  
-.navbar-default .navbar-nav li a:hover {
-color: #000;
-background: #C4F0CD;
-border-left: 1px solid #000;
-border-right: 1px solid #000;
-} 
-  
-  
-  
-/* Sidebar */
-  
-.sidebar {
-background: rgba(200, 245, 212, 0.36);
-border: 0px solid #000;
-border-bottom: 1px solid #000;
-border-left: 1px solid #000;
-color: #000;
-}
-  
+
 .col-md-3 .panel {
-background: rgb(200, 245, 212);
-border: 1px solid #000;
-box-shadow: none;    
-}
-  
-.progress-bar {
-background: #FFB3AC;
-}
-  
-.progress {
-background: #EEF8E3;
-border: 1px solid #000;
-}
-  
-  
-/* Chat */
-  
-.chat_light, .chat_dark {
-background: rgb(200, 245, 212);
-font-size: 11px;
-color: #000;
-}
- 
-.chatContainer {
-border: 1px solid #000;
-}
-  
-.userstolen {
-background: none;
-}
- 
-.alert-danger {
-color: #000;
-background: rgb(200, 245, 212);
-border: 1px solid #000;
-}
- 
-.alert-success {
-color: #000;
-background: rgb(200, 245, 212);
-border: 1px solid #000;
-}
- 
-.breadcrumb {
-background:  #C4F0CD;
-font-size: 13px;
-border: 1px solid #000;
-}
-  
-.breadcrumb>.active {
-color: #000;
-}
-  
-h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-font-family: "Carter One";
-color: #000;
-}
-  
-.col-md-9 {
-background: none;
-border: 0px solid #000;
-}
-  
-/* Tables */
-  
-#lion_image {
-border-radius: 25px;
-overflow: hidden;
-border: 1px solid #000;
-}
-  
-.table, .item {
-border: 1px solid #000;
-background: #C4F0CD;
-border-collapse: separate;
-}
- 
-.table .right, .table .right_odd {
-background: none;
-border: 0px solid #000;
-}
- 
-div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
-border: 0px solid #000;
-background: #FFB3AC;
-color: #000;
-}
- 
-.cave-grid, div .left, .mound-grid {
-border: 1px solid #000;
-background: #FFB3AC;
-color: #000;
-}
- 
-.table .left {
-border: 1px solid #000;
-background: #FFB3AC;
-color: #000;
-}
- 
-.inner-table .right {
-background: #EEF8E3;
-border: 1px solid #000;
-border-left: none;
-}
+    background: rgba(235, 211, 207, 0.8);
+    color: black;
+    border: 1px dashed white;
+    box-shadow: 0px 0px 0px #FFFFFF;}
+
+
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > div.floatright > a > img {
+content: url('https://i.imgur.com/XpQ9V9R.png')
+;}
+
+body > div.container.main > div:nth-child(2) > div.col-md-9.col-xs-12 > div.floatleft > a > img {
+content: url('https://i.imgur.com/koeXPia.png')
+;}
+
+
+.badge {background: #EBD3CF;color: #171520;}
+.alert-danger {background: rgba(211, 142, 149, 0.6);color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.8);border: none;text-align: center;}
+.alert-success {background: rgba(211, 142, 149, 0.6);color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.8);border: none;text-align: center;}
+.center.b {color:#FFFFFF;}
  
  
+h1 {color:#FFFFFF;text-align:center;font-family: 'Mountains of Christmas';font-size:60px!important;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);}
+
+h1 small{color:#FFFFFF;text-align:center;font-family: 'Mountains of Christmas';font-size:30px!important;text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.9);}
+
+
+
+h1 small a:link 
+{color:#FFFFFF!important;}
+ 
+h1 small a:visited 
+{color:#FFFFFF!important;} 
+ 
+h1 small a:hover
+{color:#FFFFFF!important; text-shadow: 1px 0px 8px rgba(255, 250, 250, 1);}  
+ 
+h1 small a:active 
+{color:#FFFFFF!important;}  
 
  
-/* 
-CSS template originally created and presented by Kraft (#738/#1105)
-*/
+h2 {color:#FFFFFF!important;text-align:center;font-family: 'Mountains of Christmas';font-size:30px;text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.8);}
+ 
+h3 {color:#FFFFFF!important;text-align:center;font-family:'Mountains of Christmas';font-size:30px;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);}
+
+.sidebar h3 {color:#FFFFFF!important;text-align:center;font-family:'Mountains of Christmas';font-size:30px;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);}
+
+ 
+td {background:#DFB8B1!important;
+color:#171520!important;}
+ 
+td.right {background:#DFB8B1!important;color:#171520!important;border-color:#FFFFFF;}
+
+td.right a:link {color:#171520!important;
+transition: 2.0s!important;}
+td.right a:visited {color:#171520!important;transition: 2.0s!important;} 
+td.right a:active {color:#171520!important;transition: 2.0s!important;} 
+td.right a:hover {color:#635C8E!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+
+
+td.right_odd {background:#DFB8B1!important;color:#171520!important;}
+
+td.right_odd a:link {color:#171520!important;
+transition: 2.0s!important;}
+td.right_odd a:visited {color:#171520!important;transition: 2.0s!important;} 
+td.right_odd a:active {color:#171520!important;transition: 2.0s!important;} 
+td.right_odd a:hover {color:#635C8E!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+ 
+td.left {background:#EBD3CF!important;color:#171520!important;border-color:#FFFFFF;}
+td.left.b {background:#D38E95!important;color:#171520!important;border-color:#FFFFFF;}
+ 
+td.right_cub {background:#EBD3CF!important;color:#171520!important;}
+
+td.right_cub a:link {color:#171520!important;
+transition: 2.0s!important;}
+td.right_cub a:visited {color:#171520!important;transition: 2.0s!important;} 
+td.right_cub a:active {color:#171520!important;transition: 2.0s!important;} 
+td.right_cub a:hover {color:#635C8E!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+ 
+.featured-lion {background:#D38E95!important;color:#171520!important;border-color:#FFFFFF!important;}
+.featured-lion a:active {color: #171520!important;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);}
+.featured-lion a:visited {color: #171520!important;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);}
+ 
+ 
+td.top {
+background:#635C8E!important;color:#EBD3CF!important;text-align:center;
+}
+ 
+th {
+background:#635C8E!important;color:#EBD3CF!important;text-align:center;
+}
+ 
+td.bottom {
+background:#635C8E!important;color:#EBD3CF!important;text-align:center;
+}
+ 
+ 
+div.left {background:#635C8E!important;color:#EBD3CF!important;}
+ 
+ 
+a:link {color:#FFFFFF!important;
+transition: 2.0s!important;}
+a:visited {color:#FFFFFF!important;transition: 2.0s!important;} 
+a:active {color:#FFFFFF!important;transition: 2.0s!important;} 
+a:hover {color:#171520!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {border-bottom: 0px solid #FFFFFF;}
+
+div.left a {
+    color: #EBD3CF;}
+ 
+.table a:link 
+{
+color:#EBD3CF!important;
+transition: 2.0s!important;
+}
+
+.table {
+    border: 0px solid #FFFFFF;
+}
+  
+.table a:visited 
+{
+color:#EBD3CF!important;
+} 
+ 
+.table a:hover
+ {
+color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);
+transition: 0.8s!important;
+}
+ 
+.table a:active 
+{
+color:#EBD3CF!important;
+}  
+ 
+ 
+.sidebar {background:rgba(211, 142, 149, 0.5)!important;color:#EBD3CF;border:0px solid black;}
+ 
+.panel-body.small {background: rgba(233, 164, 151, 0.8);color:#171520;box-shadow:none;border:0px solid black;}
+
+.panel-body.small a:link {
+color:#171520!important;
+transition: 2.0s!important;
+}
+
+.panel-body.small a:visited {
+color:#171520!important;
+transition: 2.0s!important;
+}
+
+.panel-body.small a:active {
+color:#171520!important;
+transition: 2.0s!important;
+}
+
+.panel-body.small a:hover {
+color:#635C8E!important;
+transition: 0.8s!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1)
+}
+
+.panel {
+    background: none;
+    color: none;
+    border: none;
+    box-shadow: 0px 0px 0px #FFFFFF;}
+
+ 
+.xsmall {background: none;}
+.item {
+    background: none;
+    border: 0px solid #FFFFFF;}
+
+.item-footer {
+    padding: 3px;
+    font-size: 11px;
+    color: #171520;
+    font-weight: bold;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #D38E95;
+    margin-top: 9px;}
+ 
+.chatContainer {border:0.5px dashed #FFFFFF;}
+ 
+.chat_light {color:#171520;background:#DFB8B1;border-bottom:0.2px solid rgba(1,19,33,0.1);}
+
+.chat_light a:link {color:#171520!important;
+transition: 2.0s!important;font-weight: bold;}
+.chat_light a:visited {color:#171520!important;transition: 2.0s!important;font-weight: bold;} 
+.chat_light a:active {color:#171520!important;transition: 2.0s!important;font-weight: bold;} 
+.chat_light a:hover {color:#635C8E!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;font-weight: bold;}
+ 
+.chat_dark {color:#171520;background:#D38E95;border-bottom:0.2px solid rgba(1,19,33,0.1);}
+
+.chat_dark a:link {color:#171520!important;
+transition: 2.0s!important;font-weight: bold;}
+.chat_dark a:visited {color:#171520!important;transition: 2.0s!important;font-weight: bold;} 
+.chat_dark a:active {color:#171520!important;transition: 2.0s!important;font-weight: bold;} 
+.chat_dark a:hover {color:#635C8E!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;font-weight: bold;}
+ 
+ 
+.topbar {background:#171520; color: #EBD3CF;}
+.topbar a:link 
+{color:#EBD3CF;
+transition: 0.5s;}
+ 
+.topbar a:visited 
+{color:#EBD3CF;} 
+ 
+.topbar a:hover
+{color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);
+transition: 0.5s!important;}
+ 
+.topbar a:active 
+{color:#EBD3CF!important;}  
+ 
+input[type="submit"] {
+background:#E9A497;
+color:#171520;
+border: 1px solid #FFFFFF;
+transition: 1.0s!important;
+text-shadow:none;
+box-shadow:none;}
+ 
+input[type="submit"]:hover {
+background:#EBD3CF;
+color:#171520;
+border: 1px solid #FFFFFF;
+transition: 1.0s!important;
+text-shadow:none;
+box-shadow:none;}
+ 
+input[type="button"] {
+background:#E9A497;
+color:#171520;
+border: 1px solid #FFFFFF;
+transition: 1.0s!important;
+text-shadow:none;
+box-shadow:none;}
+ 
+input[type="button"]:hover {
+background:#EBD3CF;
+color:#171520;
+border: 1px solid #FFFFFF;
+transition: 1.0s!important;
+text-shadow:none;
+box-shadow:none;}
+ 
+.cave-grid {background:#635C8E;border:0px solid #FFFFFF;}
+.mound-grid {background:#635C8E;border:0px solid #FFFFFF;}
+
+.cave-grid a:link {color:#EBD3CF!important;
+transition: 2.0s!important;}
+.cave-grid a:visited {color:#EBD3CF!important;transition: 2.0s!important;} 
+.cave-grid a:active {color:#EBD3CF!important;transition: 2.0s!important;} 
+.cave-grid a:hover {color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+
+.mound-grid a:link {color:#EBD3CF!important;
+transition: 2.0s!important;}
+.mound-grid a:visited {color:#EBD3CF!important;transition: 2.0s!important;} 
+.mound-grid a:active {color:#EBD3CF!important;transition: 2.0s!important;} 
+.mound-grid a:hover {color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+
+
+.sub_menu {background:#635C8E;color:#171520;border:0px solid #FFFFFF;}
+.sub_menu a:link, .sub_menu a:visited, .sub_menu a:active, .sub_menu a:hover {
+    color: #EBD3CF;}
+.sub_menu_item_selected {
+    background: #9B84A4;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    float: left;
+    font-weight: bold;}
+
+.feature {background:#DFB8B1!important;color:#171520!important;border:0px solid #FFFFFF!important;}
+
+ 
+.navbar
+{background:#171520;color:#EBD3CF!important;font-size:18px!important;font-family:'Mountains of Christmas'!important;text-align:center;}
+ 
+.navbar-default .navbar-nav > li > a {background:#171520;color:#EBD3CF!important;font-family: 'Mountains of Christmas';font-size:22px!important;text-align:center;}
+.navbar-default .navbar-nav > li > a:hover {background:#171520;color:#FFFFFF!important;font-family: 'Mountains of Christmas';text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);font-size:24px!important;transition: 0.5s!important;text-align:center;}
+ 
+ 
+.breadcrumb {background: rgba(99, 92, 142, 0.8);color:#EBD3CF!important;border: none;}
+
+.breadcrumb>.active {
+    color: #EBD3CF;}
+
+.breadcrumb a:link {color:#EBD3CF!important;
+transition: 2.0s!important;}
+.breadcrumb a:visited {color:#EBD3CF!important;transition: 2.0s!important;} 
+.breadcrumb a:active {color:#EBD3CF!important;transition: 2.0s!important;} 
+.breadcrumb a:hover {color:#FFFFFF!important;
+text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);transition: 0.8s!important;}
+ 
+ 
+.progress-bar {background:#D38E95!important;}
+.progress {background-color:#EBD3CF!important;}
+.progress div {color:#171520;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);font-weight: bold;}
+ 
+input[type="text"]{color:black;background:white;border:1px solid #BA4E58;}
+input[type="password"] {color:black;background:white;border:1px solid #BA4E58;}
+textarea {color:black;background:white;border:1px solid #BA4E58;}
+select {color:black;background:white;border:1px solid #BA4E58;}
+ 
+div.container.main 
+{
+background:rgba(233, 164, 151, 0.2);
+box-shadow:none;
+border:1px solid #171520;
+}
+
+div.item.center.floatleft.small {background:#EBD3CF!important;border:1px solid #FFFFFF;}
+div.item-header {background:#D38E95; color:#171520;}
+
+ 
+body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+content: url('https://i.imgur.com/t7iiDQ2.png')
+;}
+
+.s-chat-message:nth-child(odd) {
+    background: #DFB8B1;
+    color: #171520;
+    text-shadow: none;
+    
+}
+
+.s-chat-message:nth-child(even) {
+    background: #d49e94;
+    color: #171520;
+    text-shadow: none;
+}
+
+.s-chat-message:nth-child(odd) a:link 
+{color:#FFFFFF!important;}
+ 
+.s-chat-message:nth-child(odd) a:visited 
+{color:#FFFFFF!important;} 
+ 
+.s-chat-message:nth-child(odd) a:hover
+{color:#FFFFFF!important; text-shadow: 1px 0px 8px rgba(255, 250, 250, 1);}  
+ 
+.s-chat-message:nth-child(odd) a:active 
+{color:#FFFFFF!important;}  
+
+.s-chat-message:nth-child(even) a:link 
+{color:#FFFFFF!important;}
+ 
+.s-chat-message:nth-child(even) a:visited 
+{color:#FFFFFF!important;} 
+ 
+.s-chat-message:nth-child(even) a:hover
+{color:#FFFFFF!important; text-shadow: 1px 0px 8px rgba(255, 250, 250, 1);}  
+ 
+.s-chat-message:nth-child(even) a:active 
+{color:#FFFFFF!important;}  
+ 
+div.col-md-9.col-xs-12 {background:none;border:none;}
+
+Original CSS by Shad 16848
