@@ -39,10 +39,10 @@ overflow: auto;
 width: 10px;}
  
 ::-webkit-scrollbar-track {
-background-color: #23319C;}
+background-color: #BF9000;}
  
 ::-webkit-scrollbar-thumb {
-background-color: #BF9000;
+background-color: #23319c;
 border-radius: 0px;
 border: none;}
 
