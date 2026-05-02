@@ -39,10 +39,10 @@ overflow: auto;
 width: 10px;}
  
 ::-webkit-scrollbar-track {
-background-color: #D38E95;}
+background-color: #BF9000;}
  
 ::-webkit-scrollbar-thumb {
-background-color: #E9A497;
+background-color: #BF9000;
 border-radius: 0px;
 border: none;}
 
@@ -72,7 +72,7 @@ content: url('https://i.imgur.com/koeXPia.png')
 ;}
 
 
-.badge {background: #EBD3CF;color: #171520;}
+.badge {background: #BF9000;color: #23319C;}
 .alert-danger {background: rgba(211, 142, 149, 0.6);color:#FFFFFF!important;
 text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.8);border: none;text-align: center;}
 .alert-success {background: rgba(211, 142, 149, 0.6);color:#FFFFFF!important;
@@ -87,16 +87,16 @@ h1 small{color:#FFFFFF;text-align:center;font-family: 'Mountains of Christmas';f
 
 
 h1 small a:link 
-{color:#FFFFFF!important;}
+{color:#BF9000!important;}
  
 h1 small a:visited 
-{color:#FFFFFF!important;} 
+{color:#BF9000!important;} 
  
 h1 small a:hover
-{color:#FFFFFF!important; text-shadow: 1px 0px 8px rgba(255, 250, 250, 1);}  
+{color:#BF9000!important; text-shadow: 1px 0px 8px rgba(255, 250, 250, 1);}  
  
 h1 small a:active 
-{color:#FFFFFF!important;}  
+{color:#BF9000!important;}  
 
  
 h2 {color:#FFFFFF!important;text-align:center;font-family: 'Mountains of Christmas';font-size:30px;text-shadow: 1px 0px 8px rgba(250, 250, 250, 0.8);}
@@ -106,10 +106,10 @@ h3 {color:#FFFFFF!important;text-align:center;font-family:'Mountains of Christma
 .sidebar h3 {color:#FFFFFF!important;text-align:center;font-family:'Mountains of Christmas';font-size:30px;text-shadow: 1px 0px 8px rgba(250, 250, 250, 1);}
 
  
-td {background:#DFB8B1!important;
-color:#171520!important;}
+td {background:#081366 !important;
+color:#23319C!important;}
  
-td.right {background:#DFB8B1!important;color:#171520!important;border-color:#FFFFFF;}
+td.right {background:#081366!important;color:#23319C!important;border-color:#FFFFFF;}
 
 td.right a:link {color:#171520!important;
 transition: 2.0s!important;}
