@@ -65,9 +65,9 @@ text-shadow:0px 0px 0px (255,255,255);
 
 .badge {background: #BF9000;color: #23319C;}
 .alert-danger {background: rgba(255,242,204);color:#BF9000!important;
-text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: center;}
+text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
 .alert-success {background: rgba(255,242,204);color:#BF9000!important;
-text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: center;}
+text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
 .center.b {color:#BF9000;}
  
  
