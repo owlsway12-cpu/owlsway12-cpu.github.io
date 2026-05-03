@@ -378,23 +378,9 @@ border:0px solid #DFC7A7;
 div.item.center.floatleft.small {background:#AE3E1A!important;border:0px solid #FFFFFF;}
 div.item-header {background:#AE3E1A; color:#DFC7A7;}
 
-
-<div class="topSection container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <img class="logo" src="https://i.postimg.cc/m2ZNkSMX/Untitled2-(3).webp"/>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            </div>
-        </div>
-    </nav>
-</div>
+body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+content: url('https://i.postimg.cc/Sxyvdqc7/Untitled2-(1).webp')
+;}
 
 .s-chat-message:nth-child(odd) {
     background: #AE3E1A;
