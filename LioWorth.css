@@ -383,22 +383,22 @@ select {color:black;background:white;border01px solid #080402;}
 
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.postimg.cc/BQgTkWm3/c062b43d7e092902724a4b98343de7ef-(2)-(2).jpg') !important
+	content: url('https://i.postimg.cc/Yqf5P9c7/Untitled4.pngv') !important
 }
 
 
 a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('https://i.postimg.cc/BQgTkWm3/c062b43d7e092902724a4b98343de7ef-(2)-(2).jpg') !important
+	content: url('https://i.postimg.cc/Yqf5P9c7/Untitled4.png') !important
 }
 
 
 a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.postimg.cc/BQgTkWm3/c062b43d7e092902724a4b98343de7ef-(2)-(2).jpg') !important
+	content: url('https://i.postimg.cc/Yqf5P9c7/Untitled4.png') !important
 }
 
 
 a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.postimg.cc/BQgTkWm3/c062b43d7e092902724a4b98343de7ef-(2)-(2).jpg') !important
+	content: url('https://i.postimg.cc/Yqf5P9c7/Untitled4.png') !important
 }
 
 
