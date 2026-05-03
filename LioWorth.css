@@ -132,8 +132,8 @@ td.right_cub a:hover {color:#080402!important;
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
  
 .featured-lion {background:#AE3E1A!important;color:#080402!important;border-color:#080402!important;}
-.featured-lion a:active {color: #DFC7A7!important;text-shadow: 0px 0px 0px (255,255,255);}
-.featured-lion a:visited {color: #DFC7A7!important;text-shadow: 0px 0px 0px (255,255,255);}
+.featured-lion a:active {color: #080402!important;text-shadow: 0px 0px 0px (255,255,255);}
+.featured-lion a:visited {color: #080402!important;text-shadow: 0px 0px 0px (255,255,255);}
  
  
 td.top {
@@ -149,7 +149,7 @@ background:#7C290E!important;color:#080402!important;text-align:center;
 }
  
  
-div.left {background:#AE3E1A!important;color:#080402!important;}
+div.left {background:#7C290E!important;color:#080402!important;}
  
  
 a:link {color:#080402!important;
@@ -176,7 +176,7 @@ transition: 2.0s!important;
   
 .table a:visited 
 {
-color:#7C290E!important;
+color:#080402!important;
 } 
  
 .table a:hover
