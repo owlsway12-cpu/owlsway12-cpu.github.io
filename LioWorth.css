@@ -378,7 +378,61 @@ input[type="text"]{color:black;background:white;border:0px solid #080402;}
 input[type="password"] {color:black;background:white;border:0px solid #080402;}
 textarea {color:black;background:white;border:0px solid #080402;}
 select {color:black;background:white;border01px solid #080402;}
- 
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.postimg.cc/kM2v2hMW/c062b43d7e092902724a4b98343de7ef-(2).jpg') !important
+}
+
+
+a[href$="CAVE ID"]>div.cave-grid>img {
+	content: url('https://i.postimg.cc/kM2v2hMW/c062b43d7e092902724a4b98343de7ef-(2).jpg') !important
+}
+
+
+a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.postimg.cc/kM2v2hMW/c062b43d7e092902724a4b98343de7ef-(2).jpg') !important
+}
+
+
+a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.postimg.cc/kM2v2hMW/c062b43d7e092902724a4b98343de7ef-(2).jpg') !important
+}
+
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://i.postimg.cc/yNrSBsZj/c062b43d7e092902724a4b98343de7ef-(2)-(1).jpg");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+
 div.container.main 
 {
 background:rgba(174, 62, 26, 0.5);
