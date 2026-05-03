@@ -357,6 +357,17 @@ transition: 2.0s!important;}
 .breadcrumb a:active {color:#080402!important;transition: 2.0s!important;} 
 .breadcrumb a:hover {color:#080402!important;
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template by Ace Attorney (#506560)";
+        color: #080402;
+        position: absolute;
+        right: 13%;
+        z-index: 100
+    }
  
  
 .progress-bar {background:#AE3E1A!important;}
