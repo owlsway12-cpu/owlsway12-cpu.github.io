@@ -380,10 +380,6 @@ input[type="password"] {color:black;background:white;border:0px solid #BF9000;}
 textarea {color:black;background:white;border:0px solid #BF9000;}
 select {color:black;background:white;border01px solid #BF9000;}
 
-</style>
-<div class="floatleft"><a href="/cave.php?id=353243"><img src="https://i.postimg.cc/wBZfXsLh/Untitled10.webp"></a></div>
-<div class="floatright"><a href="/cave.php?id=363512"><img src="https://i.postimg.cc/pV87Bk0p/Untitled11-1.webp"></a></div>
-
 /* CAVE / MOUND IMAGES */
 
 
@@ -450,7 +446,7 @@ div.item-header {background:#081366; color:#23319C;}
 
  
 body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
- width: 75px; content: url('https://i.postimg.cc/Sxyvdqc7/Untitled2-(1).webp')
+ width: 85px; content: url('https://i.postimg.cc/Sxyvdqc7/Untitled2-(1).webp')
 ;}
 
 .s-chat-message:nth-child(odd) {
