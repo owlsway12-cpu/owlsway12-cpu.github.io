@@ -261,7 +261,7 @@ transition: 2.0s!important;font-weight: bold;}
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;font-weight: bold;}
  
  
-.topbar {background:#FFF2CC; color: #CA224F;}
+.topbar {background:#FFFFFF; color: #CA224F;}
 .topbar a:link 
 {color:#CA224F;
 transition: 0.5s;}
@@ -372,7 +372,7 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
  
  
 .progress-bar {background:#081366!important;}
-.progress {background-color:#FFF2CC!important;}
+.progress {background-color:#FFFFFF!important;}
 .progress div {color:#CA224F;text-shadow: 0px 0px 0px (255,255,255);font-weight: bold;}
  
 input[type="text"]{color:black;background:white;border:0px solid #CA224F;}
