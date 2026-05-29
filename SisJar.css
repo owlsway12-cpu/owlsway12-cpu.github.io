@@ -384,27 +384,27 @@ select {color:black;background:white;border01px solid #BF9000;}
 
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.postimg.cc/YCLqXjMD/Untitled28.webp') !important
+	content: url('https://i.postimg.cc/pTWm1x0C/Untitled29.webp') !important
 }
 
 
 a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('https://i.postimg.cc/YCLqXjMD/Untitled28.webp') !important
+	content: url('https://i.postimg.cc/pTWm1x0C/Untitled29.webp') !important
 }
 
 
 a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.postimg.cc/YCLqXjMD/Untitled28.webp') !important
+	content: url('https://i.postimg.cc/pTWm1x0C/Untitled29.webp') !important
 }
 
 
 a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.postimg.cc/YCLqXjMD/Untitled28.webp') !important
+	content: url('https://i.postimg.cc/pTWm1x0C/Untitled29.webp') !important
 }
 
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://i.postimg.cc/pL3yxzsT/Untitled27.webp");
+	background: url("https://i.postimg.cc/Vs7CprPn/Untitled30.webp");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
