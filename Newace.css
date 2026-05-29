@@ -65,9 +65,9 @@ text-shadow:0px 0px 0px (255,255,255);
     box-shadow: 0px 0px 0px #FFFFFF;}
 
 .badge {background: #CA224F;color: #23319C;}
-.alert-danger {background: rgba(255,242,204);color:#CA224F!important;
+.alert-danger {background: rgba(255,255,255);color:#CA224F!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
-.alert-success {background: rgba(255,242,204);color:#CA224F!important;
+.alert-success {background: rgba(255,255,255);color:#CA224F!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
 .center.b {color:#CA224F;}
  
@@ -195,7 +195,7 @@ color:#CA224F!important;
  
 .sidebar {background:rgba(35,49,156, 0.5)!important;color:#CA224F;border:0px solid black;}
  
-.panel-body.small {background: rgba(191, 144, 0, 0.5);color:#CA224F;box-shadow:none;border:0px solid black;}
+.panel-body.small {background: rgba(202,34,79, 0.5);color:#CA224F;box-shadow:none;border:0px solid black;}
 
 .panel-body.small a:link {
 color:#CA224F!important;
