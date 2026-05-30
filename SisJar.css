@@ -65,9 +65,9 @@ text-shadow:0px 0px 0px (255,255,255);
     box-shadow: 0px 0px 0px #FFFFFF;}
 
 .badge {background: #EEEEEE;color: #3146B7;}
-.alert-danger {background: rgba(255,255,255);color:#EEEEEE!important;
+.alert-danger {background: rgba(255,255,255);color:#3146B7!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
-.alert-success {background: rgba(255,255,255);color:#EEEEEE!important;
+.alert-success {background: rgba(255,255,255);color:#3146B7!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
 .center.b {color:#EEEEEE;}
  
@@ -270,7 +270,7 @@ transition: 0.5s;}
 {color:#051554;} 
  
 .topbar a:hover
-{color:#EEEEEE!important;
+{color:#3146B7!important;
 text-shadow: 0px 0px 0px (255,255,255);
 transition: 0.5s!important;}
  
