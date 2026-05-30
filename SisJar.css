@@ -373,7 +373,7 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
  
 .progress-bar {background:#051554!important;}
 .progress {background-color:#FFFFFF!important;}
-.progress div {color:#EEEEEE;text-shadow: 0px 0px 0px (255,255,255);font-weight: bold;}
+.progress div {color:#3146B7;text-shadow: 0px 0px 0px (255,255,255);font-weight: bold;}
  
 input[type="text"]{color:black;background:white;border:0px solid #EEEEEE;}
 input[type="password"] {color:black;background:white;border:0px solid #EEEEEE;}
