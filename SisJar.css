@@ -153,11 +153,11 @@ background:#081336!important;color:#EEEEEE!important;text-align:center;
 div.left {background:#081336!important;color:#EEEEEE!important;}
  
  
-a:link {color:#EEEEEE!important;
+a:link {color:#3146B7!important;
 transition: 2.0s!important;}
-a:visited {color:#EEEEEE!important;transition: 2.0s!important;} 
-a:active {color:#EEEEEE!important;transition: 2.0s!important;} 
-a:hover {color:#EEEEEE!important;
+a:visited {color:#3146B7!important;transition: 2.0s!important;} 
+a:active {color:#3146B7!important;transition: 2.0s!important;} 
+a:hover {color:#3146B7!important;
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
 
 .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {border-bottom: 0px solid #FFFFFF;}
@@ -167,7 +167,7 @@ div.left a {
  
 .table a:link 
 {
-color:#EEEEEE!important;
+color:#3146B7!important;
 transition: 2.0s!important;
 }
 
@@ -177,19 +177,19 @@ transition: 2.0s!important;
   
 .table a:visited 
 {
-color:#EEEEEE!important;
+color:#3146B7!important;
 } 
  
 .table a:hover
  {
-color:#EEEEEE!important;
+color:#3146B7!important;
 text-shadow: 0px 0px 0px (255,255,255);
 transition: 0.8s!important;
 }
  
 .table a:active 
 {
-color:#EEEEEE!important;
+color:#3146B7!important;
 }  
  
  
