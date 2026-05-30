@@ -279,7 +279,7 @@ transition: 0.5s!important;}
  
 input[type="submit"] {
 background:#051554;
-color:#EEEEEE;
+color:#3146B7;
 border: 0px solid #FFFFFF;
 transition: 1.0s!important;
 text-shadow:none;
@@ -287,7 +287,7 @@ box-shadow:none;}
  
 input[type="submit"]:hover {
 background:#051554;
-color:#EEEEEE;
+color:#3146B7;
 border: 0px solid #FFFFFF;
 transition: 1.0s!important;
 text-shadow:none;
@@ -343,7 +343,7 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
 .navbar
 {background:#3146B7;color:#EEEEEE!important;font-size:18px!important;font-family:'Caveat'!important;text-align:center;}
  
-.navbar-default .navbar-nav > li > a {background:#051554;color:#EEEEEE!important;font-family: 'Caveat';font-size:22px!important;text-align:center;}
+.navbar-default .navbar-nav > li > a {background:#3146B7;color:#EEEEEE!important;font-family: 'Caveat';font-size:22px!important;text-align:center;}
 .navbar-default .navbar-nav > li > a:hover {background:#3146B7;color:#EEEEEE!important;font-family: 'Caveat';text-shadow: 0px 0px 0px (255,255,255);font-size:24px!important;transition: 0.5s!important;text-align:center;}
  
  
