@@ -1,5 +1,5 @@
-@import "https://fonts.googleapis.com/css2?family=Lobster+Two";
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two');
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif');
 
 .boxcontainer {
 background: none;
@@ -53,7 +53,7 @@ body
 background:url("https://i.postimg.cc/BvkGRjCb/image-(11).webp");
 background-attachment:fixed;
 background-size:100%;
- font-family: 'Lobster Two';
+ font-family: 'Noto Serif';
 color:#EEEEEE!important;
 text-shadow:0px 0px 0px (255,255,255);
 }
@@ -72,9 +72,9 @@ text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
 .center.b {color:#3146B7;}
  
  
-h1 {color:#EEEEEE;text-align:center;font-family: 'Lobster Two';font-size:60px!important;text-shadow: 0px 0px 0px (255,255,255)}
+h1 {color:#EEEEEE;text-align:center;font-family: 'Noto Serif';font-size:60px!important;text-shadow: 0px 0px 0px (255,255,255)}
 
-h1 {color:#EEEEEE;text-align:center;font-family: 'Lobster Two';font-size:30px!important;text-shadow: 0px 0px 0px (255,255,255);}
+h1 {color:#EEEEEE;text-align:center;font-family: 'Noto Serif';font-size:30px!important;text-shadow: 0px 0px 0px (255,255,255);}
 
 
 
@@ -91,11 +91,11 @@ h1 small a:active
 {color:#EEEEEE!important;}  
 
  
-h2 {color:#EEEEEE!important;text-align:center;font-family: 'Lobster Two';font-size:30px;text-shadow: 0px 0px 0px (255,255,255);}
+h2 {color:#EEEEEE!important;text-align:center;font-family: 'Noto Serif';font-size:30px;text-shadow: 0px 0px 0px (255,255,255);}
  
-h3 {color:#EEEEEE!important;text-align:center;font-family:'Lobster Two';font-size:30px;text-shadow: 0px 0px 0px (255,255,255);}
+h3 {color:#EEEEEE!important;text-align:center;font-family:'Noto Serif';font-size:30px;text-shadow: 0px 0px 0px (255,255,255);}
 
-.sidebar h3 {color:#EEEEEE!important;text-align:center;font-family:'Lobster Two';font-size:30px;text-shadow: 0px 0px 0px (255,255,255);}
+.sidebar h3 {color:#EEEEEE!important;text-align:center;font-family:'Noto Serif';font-size:30px;text-shadow: 0px 0px 0px (255,255,255);}
 
  
 td {background:#051554 !important;
@@ -341,10 +341,10 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
 
  
 .navbar
-{background:#3146B7;color:#EEEEEE!important;font-size:18px!important;font-family:'Lobster Two'!important;text-align:center;}
+{background:#3146B7;color:#EEEEEE!important;font-size:18px!important;font-family:'Noto Serif'!important;text-align:center;}
  
-.navbar-default .navbar-nav > li > a {background:#3146B7;color:#EEEEEE!important;font-family: 'Lobster Two';font-size:22px!important;text-align:center;}
-.navbar-default .navbar-nav > li > a:hover {background:#3146B7;color:#EEEEEE!important;font-family: 'Lobster Two';text-shadow: 0px 0px 0px (255,255,255);font-size:24px!important;transition: 0.5s!important;text-align:center;}
+.navbar-default .navbar-nav > li > a {background:#3146B7;color:#EEEEEE!important;font-family: 'Noto Serif';font-size:22px!important;text-align:center;}
+.navbar-default .navbar-nav > li > a:hover {background:#3146B7;color:#EEEEEE!important;font-family: 'Noto Serif';text-shadow: 0px 0px 0px (255,255,255);font-size:24px!important;transition: 0.5s!important;text-align:center;}
  
  
 .breadcrumb {background: rgba(35, 49, 156);color:#3146B7!important;border: none;}
