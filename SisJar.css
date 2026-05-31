@@ -64,34 +64,34 @@ text-shadow:0px 0px 0px (255,255,255);
     border: 0px solid white;
     box-shadow: 0px 0px 0px #FFFFFF;}
 
-.badge {background: #3146B7;color: #3146B7;}
-.alert-danger {background: rgba(255,255,255);color:#3146B7!important;
+.badge {background: #3146B7;color: #EEEEEE;}
+.alert-danger {background: rgba(255,255,255);color:#EEEEEE!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
-.alert-success {background: rgba(255,255,255);color:#3146B7!important;
+.alert-success {background: rgba(255,255,255);color:#EEEEEE!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
-.center.b {color:#3146B7;}
+.center.b {color:#EEEEEE;}
 
 
-h1 {color:#3146B7text-align:center;font-family: 'Caveat';font-size:60px!important;text-shadow: 0px 0px 0px (255,255,255)}
+h1 {color:#EEEEEEtext-align:center;font-family: 'Caveat';font-size:60px!important;text-shadow: 0px 0px 0px (255,255,255)}
 
-h1 {color:#3146B7;text-align:center;font-family: 'Caveat';font-size:30px!important;text-shadow: 0px 0px 0px (255,255,255);}
+h1 {color:#EEEEEE;text-align:center;font-family: 'Caveat';font-size:30px!important;text-shadow: 0px 0px 0px (255,255,255);}
 
 
 
 h1 small a:link 
-{color:#3146B7!important;}
+{color:#EEEEEE!important;}
 {color:#EEEEEE!important;}
 
 h1 small a:visited 
-{color:#3146B7!important;} 
+{color:#EEEEEE!important;} 
 {color:#EEEEEE!important;} 
 
 h1 small a:hover
-{color:#3146B7!important; text-shadow: 0px 0px 0px (255,255,255);}  
+{color:#EEEEEE!important; text-shadow: 0px 0px 0px (255,255,255);}  
 {color:#EEEEEE!important; text-shadow: 0px 0px 0px (255,255,255);}  
 
 h1 small a:active 
-{color:#3146B7!important;}  
+{color:#EEEEEE!important;}  
 {color:#EEEEEE!important;}  
 
 
@@ -137,8 +137,8 @@ td.right_cub a:hover {color:#EEEEEE!important;
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
 
 .featured-lion {background:#081336!important;color:#EEEEEE!important;border-color:#EEEEEE!important;}
-.featured-lion a:active {color: #3146B7!important;text-shadow: 0px 0px 0px (255,255,255);}
-.featured-lion a:visited {color: #3146B7!important;text-shadow: 0px 0px 0px (255,255,255);}
+.featured-lion a:active {color: #EEEEEE!important;text-shadow: 0px 0px 0px (255,255,255);}
+.featured-lion a:visited {color: #EEEEEE!important;text-shadow: 0px 0px 0px (255,255,255);}
 
 
 td.top {
@@ -265,25 +265,25 @@ transition: 2.0s!important;font-weight: bold;}
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;font-weight: bold;}
 
 
-.topbar {background:#FFFFFF; color: #3146B7;}
+.topbar {background:#050318; color: #EEEEEE;}
 .topbar a:link 
-{color:#3146B7;
+{color:#EEEEEE;
 transition: 0.5s;}
 
 .topbar a:visited 
 {color:#051554;} 
 
 .topbar a:hover
-{color:#3146B7!important;
+{color:#EEEEEE!important;
 text-shadow: 0px 0px 0px (255,255,255);
 transition: 0.5s!important;}
 
 .topbar a:active 
-{color:#3146B7!important;}  
+{color:#EEEEEE!important;}  
 
 input[type="submit"] {
 background:#051554;
-color:#3146B7;
+color:#EEEEEE;
 border: 0px solid #FFFFFF;
 transition: 1.0s!important;
 text-shadow:none;
@@ -291,7 +291,7 @@ box-shadow:none;}
 
 input[type="submit"]:hover {
 background:#051554;
-color:#3146B7;
+color:#EEEEEE;
 border: 0px solid #FFFFFF;
 transition: 1.0s!important;
 text-shadow:none;
@@ -299,7 +299,7 @@ box-shadow:none;}
 
 input[type="button"] {
 background:#051554;
-color:#3146B7;
+color:#EEEEEE;
 border: 1px solid #FFFFFF;
 transition: 1.0s!important;
 text-shadow:none;
@@ -307,7 +307,7 @@ box-shadow:none;}
 
 input[type="button"]:hover {
 background:#EBD3CF;
-color:#3146B7;
+color:#EEEEEE;
 border: 0px solid #FFFFFF;
 transition: 1.0s!important;
 text-shadow:none;
