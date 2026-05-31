@@ -399,8 +399,6 @@ a[href$="CAVE ID"]>div.cave-grid>img {
 	content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
 }
 
-img[src$="default.png"] {
-content: url("https://i.postimg.cc/1tGrwyDn/8acac24092050f192592c7b87fd8a41e-(1).webp"); }
 
 a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
 	content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
