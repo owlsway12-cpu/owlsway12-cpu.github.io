@@ -46,11 +46,11 @@ background-color: #23319c;
 border-radius: 0px;
 border: none;}
 
-* {cursor: url(https://i.postimg.cc/KYZ369dW/Untitled15.webp), auto !important;}
+* {cursor: url(https://i.postimg.cc/wTJt7Sjt/Untitled14.webp), auto !important;}
 
 body 
 {
-background:url("https://i.postimg.cc/7Y2z0J3G/406a7e5dca54e7d57b1856682c0276d5.jpg");
+background:url("https://i.postimg.cc/cJT0vc35/7Hf-Fq-AAAAAGSURBVAMAx-Qkbwb11d2k-AAAAASUVORK5CYII.webp");
 background-attachment:fixed;
 background-size:100%;
  font-family: 'Caveat';
@@ -384,27 +384,27 @@ select {color:black;background:white;border01px solid #CA224F;}
 
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
+	content: url('https://i.postimg.cc/CLj1FkcQ/Untitled21-20260528180710.webp') !important
 }
 
 
 a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
+	content: url('https://i.postimg.cc/CLj1FkcQ/Untitled21-20260528180710.webp') !important
 }
 
 
 a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
+	content: url('https://i.postimg.cc/CLj1FkcQ/Untitled21-20260528180710.webp') !important
 }
 
 
 a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
+	content: url('https://i.postimg.cc/CLj1FkcQ/Untitled21-20260528180710.webp') !important
 }
 
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://i.postimg.cc/zXZCdkXj/Untitled18.webp");
+	background: url("https://i.postimg.cc/kMRGpkKq/Untitled19.webp");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -446,7 +446,7 @@ div.item-header {background:#081366; color:#23319C;}
 
  
 body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
-content: url('https://i.postimg.cc/T1WKVBD6/Untitled16.webp')
+content: url('https://i.postimg.cc/wTJt7Sjt/Untitled14.webp')
 ;}
 
 .s-chat-message:nth-child(odd) {
