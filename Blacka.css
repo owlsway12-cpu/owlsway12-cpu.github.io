@@ -371,8 +371,8 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
     }
  
  
-.progress-bar {background:#222A30!important;}
-.progress {background-color:#000000!important;}
+.progress-bar {background:#000000!important;}
+.progress {background-color:#222A30!important;}
 .progress div {color:#D9DDE1;text-shadow: 0px 0px 0px (255,255,255);font-weight: bold;}
  
 input[type="text"]{color:black;background:white;border:0px solid #D9DDE1;}
