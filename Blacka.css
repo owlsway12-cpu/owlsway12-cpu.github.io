@@ -65,9 +65,9 @@ text-shadow:0px 0px 0px (255,255,255);
     box-shadow: 0px 0px 0px #FFFFFF;}
 
 .badge {background: #D9DDE1;color: #06131D;}
-.alert-danger {background: rgba(255,255,255);color:#D9DDE1!important;
+.alert-danger {background: rgba(0,0,0);color:#D9DDE1!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
-.alert-success {background: rgba(255,255,255);color:#D9DDE1!important;
+.alert-success {background: rgba(0,0,0);color:#D9DDE1!important;
 text-shadow: 0px 0px 0px (255,255,255);border: none;text-align: Left;}
 .center.b {color:#D9DDE1;}
  
@@ -261,7 +261,7 @@ transition: 2.0s!important;font-weight: bold;}
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;font-weight: bold;}
  
  
-.topbar {background:#FFFFFF; color: #D9DDE1;}
+.topbar {background:#000000; color: #D9DDE1;}
 .topbar a:link 
 {color:#D9DDE1;
 transition: 0.5s;}
@@ -372,7 +372,7 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
  
  
 .progress-bar {background:#222A30!important;}
-.progress {background-color:#FFFFFF!important;}
+.progress {background-color:#000000!important;}
 .progress div {color:#D9DDE1;text-shadow: 0px 0px 0px (255,255,255);font-weight: bold;}
  
 input[type="text"]{color:black;background:white;border:0px solid #D9DDE1;}
