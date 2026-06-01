@@ -59,7 +59,7 @@ text-shadow:0px 0px 0px (255,255,255);
 }
 
 .col-md-3 .panel {
-    background: rgba(8, 19, 102, 0.5);
+    background: rgba(6,19,29, 0.5);
     color: black;
     border: 0px solid white;
     box-shadow: 0px 0px 0px #FFFFFF;}
@@ -195,7 +195,7 @@ color:#D9DDE1!important;
  
 .sidebar {background:rgba(6,19,29, 0.5)!important;color:#D9DDE1;border:0px solid black;}
  
-.panel-body.small {background: rgba(7,16,60, 0.5);color:#D9DDE1;box-shadow:none;border:0px solid black;}
+.panel-body.small {background: rgba(217,221,225, 0.5);color:#D9DDE1;box-shadow:none;border:0px solid black;}
 
 .panel-body.small a:link {
 color:#D9DDE1!important;
