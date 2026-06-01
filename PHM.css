@@ -309,9 +309,8 @@ transition: 1.0s!important;
 text-shadow:none;
 box-shadow:none;}
 
-#lion_image>div::after {
-    content: url('https://i.postimg.cc/gcNjSQzG/8acac24092050f192592c7b87fd8a41e-(1).webp')!important;
-    /* Additional positioning and styling rules apply */
+.lionImage {
+    background: url('https://i.postimg.cc/gcNjSQzG/8acac24092050f192592c7b87fd8a41e-(1).webp') no-repeat;
 }
 
 .cave-grid {background:#BCE123;border:0px solid #FFFFFF;}
