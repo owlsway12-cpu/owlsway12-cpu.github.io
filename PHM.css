@@ -387,33 +387,38 @@ select {color:black;background:white;border01px solid #1B0A2C;}
 
 /* CAVE / MOUND IMAGES */
 
+a[href$="534439"]>div.cave-grid>img {
+    content: url('h ttps://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
+}
+
+a[href$="539620"]>div.cave-grid>img {
+    content: url('') !important
+}
+
+a[href$="448704"]>div.cave-grid>img {
+    content: url('h ttps://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
+}
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
+    content: url('') !important
+}
+
+a[href$="lionoverview.php?id=253360"]>div.cave-grid>img /* Pride Overview */ {
+    content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
 }
 
 
-a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
-}
-
-
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
-}
-
-
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
+a[href$="unsorted.php?id=253360"]>div.cave-grid>img /* Unsorted */ {
+    content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
 }
 
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://i.postimg.cc/G22kfvD9/Untitled32.webp");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
+    background: url("https://i.postimg.cc/G22kfvD9/Untitled32.webp");
+    width: 0;
+    height: 0;
+    padding-top: 80px;
+    padding-right: 130px
 }
 
 
