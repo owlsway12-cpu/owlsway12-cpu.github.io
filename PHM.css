@@ -132,8 +132,8 @@ td.right_odd a:active {color:#1B0A2C!important;transition: 2.0s!important;}
 td.right_odd a:hover {color:#1B0A2C!important;
 text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
 
-td.left {background:#BCE123!important;color:#1B0A2C!important;border-color:#1B0A2C;}
-td.left.b {background:#BCE123!important;color:#1B0A2C!important;border-color:#1B0A2C;}
+td.left {background:#F1C232!important;color:#1B0A2C!important;border-color:#1B0A2C;}
+td.left.b {background:#F1C232!important;color:#1B0A2C!important;border-color:#1B0A2C;}
 
 td.right_cub {background:#BCE123!important;color:#1B0A2C!important;}
 
