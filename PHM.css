@@ -432,24 +432,6 @@ a[href$="unsorted.php?id=506560"]>div.cave-grid>img /* Unsorted */ {
     padding-top: 80px;
     padding-right: 130px
 
-img[src$="arrowleft.png"] {
-content: url('https://i.postimg.cc/CMGJrXLG/Untitled36-(1).webp') !important;
-width: XXpx !important; }
-
-img[src$="arrow.png"] {
-content: url('IMAGE LINK') !important;
-width: XXpx !important; }
-
-img[src$="arrowright.png"] {
-content: url('https://i.postimg.cc/L6mDcDJ8/Untitled37-(1).webp') !important;
-width: XXpx !important; }
-
-img[src$="unsortedlionsbanner.png"] {
-content: url('') !important;
-height: xxpx !important;
-opacity: 70%;
-transition: opacity 0.3s ease; }`
-
 /* Dynasty, achievements, etc */
 img[src$="den_ancestors.png"] /* King Dynasty */ {
 content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important;
