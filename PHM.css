@@ -433,7 +433,14 @@ a[href$="unsorted.php?id=506560"]>div.cave-grid>img /* Unsorted */ {
     padding-right: 130px
 }
 
-
+/* Example: Replace background with a custom image */
+.king-dynasty-class {
+    background: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') center/cover no-repeat !important;
+}
+/* Example: Replace background with a custom image */
+.pride-dynasty-class {
+    background: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') center/cover no-repeat !important;
+}
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 
