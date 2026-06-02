@@ -382,12 +382,6 @@ select {color:black;background:white;border01px solid #CA224F;}
 
 /* CAVE / MOUND IMAGES */
 
-
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('') !important
-}
-
-
 a[href$="534439"]>div.cave-grid>img {
 	content: url('') !important
 }
@@ -400,6 +394,9 @@ a[href$="448704"]>div.cave-grid>img {
 	content: url('') !important
 }
 
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('') !important
+}
 
 a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
 	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
