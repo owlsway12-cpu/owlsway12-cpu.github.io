@@ -48,6 +48,18 @@ border: none;}
 
 * {cursor: url(https://i.postimg.cc/WzzX0Q80/Untitled34-1.webp), auto !important;}
 
+/* CIRCULAR LION AND USER AVATAR */
+div#lion_image {
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin-top: 15px; /* May need adjusting */
+    margin-left: 12px /* May need adjusting */
+}
+table#player img {
+    border-radius: 50% !important;
+    overflow: hidden
+}
+
 body 
 {
 background:url("https://i.postimg.cc/t437N7YP/image-(12).webp");
