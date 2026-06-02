@@ -147,9 +147,13 @@ text-shadow: 0px 0px 0px (255,255,255);transition: 0.8s!important;}
 .featured-lion {background:#BCE123!important;color:#1B0A2C!important;border-color:#1B0A2C!important;}
 .featured-lion a:active {color: #9FDA39!important;text-shadow: 0px 0px 0px (255,255,255);}
 .featured-lion a:visited {color: #9FDA39!important;text-shadow: 0px 0px 0px (255,255,255);}
-.lionImage img:first-child {
-    visibility: hidden;
-}
+
+/* Featured lion BG */
+img[src$="default.png"] {
+content: url('https://i.postimg.cc/3RmX04bP/8acac24092050f192592c7b87fd8a41e-(2)-(1).webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; }
 
 
 td.top {
