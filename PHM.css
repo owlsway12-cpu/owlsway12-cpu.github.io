@@ -438,31 +438,31 @@ a[href$="unsorted.php?id=506560"]>div.cave-grid>img /* Unsorted */ {
 }
 /* Dynasty, achievements, etc */
 img[src$="den_ancestors.png"] /* King Dynasty */ {
-content: url('https://i.postimg.cc/8zLN3T9G/Untitled33-(1)-(1).webp') !important;
+content: url('https://i.postimg.cc/1RNm60Br/Untitled32-(1)-(1).webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; } /* Dunno what this does, but it's probably fine... */
 
 img[src$="den_ancestorsfem.png"] /* Pride Dynasty */ {
-content: url('https://i.postimg.cc/PJBn37Mb/5aa1d5682d75ce5714e303de556f5482-(1)-(1).webp') !important;
+content: url('https://i.postimg.cc/1RNm60Br/Untitled32-(1)-(1).webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 img[src$="den_achievements.png"] /* Achievements */ {
-content: url('https://i.postimg.cc/8zLN3T9G/Untitled33-(1)-(1).webp') !important;
+content: url('https://i.postimg.cc/1RNm60Br/Untitled32-(1)-(1).webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 img[src$="den_showcase.png"] /* Showcase */ {
-content: url('https://i.postimg.cc/8zLN3T9G/Untitled33-(1)-(1).webp') !important;
+content: url('https://i.postimg.cc/1RNm60Br/Untitled32-(1)-(1).webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 img[src$="den_beetlebook.png"] /* Beetle Book */ {
-content: url('https://i.postimg.cc/PJBn37Mb/5aa1d5682d75ce5714e303de556f5482-(1)-(1).webp') !important;
+content: url('https://i.postimg.cc/1RNm60Br/Untitled32-(1)-(1).webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
