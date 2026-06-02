@@ -432,15 +432,11 @@ a[href$="unsorted.php?id=506560"]>div.cave-grid>img /* Unsorted */ {
     padding-top: 80px;
     padding-right: 130px
 }
+a[href$="506560"]>div.cave-grid>img {
+    content: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') !important
+}
 
-/* Example: Replace background with a custom image */
-.king-dynasty-class {
-    background: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') center/cover no-repeat !important;
-}
-/* Example: Replace background with a custom image */
-.pride-dynasty-class {
-    background: url('https://i.postimg.cc/JhR3bf4j/Untitled33.webp') center/cover no-repeat !important;
-}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 
