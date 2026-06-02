@@ -438,6 +438,37 @@ height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
+/* Dynasty, achievements, etc */
+img[src$="den_ancestors.png"] /* King Dynasty */ {
+content: url('https://i.postimg.cc/GhVSDYMv/Untitled38.webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; } /* Dunno what this does, but it's probably fine... */
+
+img[src$="den_ancestorsfem.png"] /* Pride Dynasty */ {
+content: url('https://i.postimg.cc/GhVSDYMv/Untitled38.webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; }
+
+img[src$="den_achievements.png"] /* Achievements */ {
+content: url('https://i.postimg.cc/GhVSDYMv/Untitled38.webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; }
+
+img[src$="den_showcase.png"] /* Showcase */ {
+content: url('https://i.postimg.cc/GhVSDYMv/Untitled38.webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; }
+
+img[src$="den_beetlebook.png"] /* Beetle Book */ {
+content: url('https://i.postimg.cc/GhVSDYMv/Untitled38.webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; }
+
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
