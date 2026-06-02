@@ -431,6 +431,14 @@ a[href$="unsorted.php?id=506560"]>div.cave-grid>img /* Unsorted */ {
 }
 
 
+/* Featured lion BG */
+img[src$="default.png"] {
+content: url('https://i.postimg.cc/vHFV6Zr9/860d7152b4c34e03bc4d4923b0444630-(1).webp') !important;
+height: xxpx !important;
+opacity: 100%;
+transition: opacity 0.3s ease; }
+
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 
