@@ -48,6 +48,18 @@ border: none;}
 
 * {cursor: url(https://i.postimg.cc/KYZ369dW/Untitled15.webp), auto !important;}
 
+/* CIRCULAR LION AND USER AVATAR */
+div#lion_image {
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin-top: 15px; /* May need adjusting */
+    margin-left: 12px /* May need adjusting */
+}
+table#player img {
+    border-radius: 50% !important;
+    overflow: hidden
+}
+
 body 
 {
 background:url("https://i.postimg.cc/7Y2z0J3G/406a7e5dca54e7d57b1856682c0276d5.jpg");
@@ -388,7 +400,7 @@ select {color:black;background:white;border01px solid #CA224F;}
 /* CAVE / MOUND IMAGES */
 
 a[href$="534439"]>div.cave-grid>img {
-	content: url('') !important
+	content: url('https://i.postimg.cc/rF7Cd76n/0be29dd75780f72b58f4939755e654e1-(1).webp') !important
 }
 
 a[href$="539620"]>div.cave-grid>img {
@@ -396,19 +408,19 @@ a[href$="539620"]>div.cave-grid>img {
 }
 
 a[href$="448704"]>div.cave-grid>img {
-	content: url('') !important
+	content: url('https://i.postimg.cc/rF7Cd76n/0be29dd75780f72b58f4939755e654e1-(1).webp') !important
 }
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('') !important
+a[href$="lionoverview.php?id=506560"]>div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.postimg.cc/rF7Cd76n/0be29dd75780f72b58f4939755e654e1-(1).webp') !important
 }
 
-a[href$="lionoverview.php?id=PLAYER ID"]>div.cave-grid>img /* Pride Overview */ {
+a[href$="lionoverview.php?id=506560"]>div.cave-grid>img /* Pride Overview */ {
 	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
 }
 
 
-a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
+a[href$="unsorted.php?id=506560"]>div.cave-grid>img /* Unsorted */ {
 	content: url('https://i.postimg.cc/FHG0H5bD/Untitled20.webp') !important
 }
 
