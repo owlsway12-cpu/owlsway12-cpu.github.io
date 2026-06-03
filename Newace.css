@@ -469,15 +469,15 @@ transition: opacity 0.3s ease; }
 /* Arrows, for caves */
 
 img[src$="arrowleft.png"] {
-content: url('https://i.postimg.cc/sXTTgZQs/Untitled39.webp') !important;
+content: url('https://i.postimg.cc/1RnN7qm0/Untitled45.webp') !important;
 width: XXpx !important; }
 
 img[src$="arrowgrayleft.png"] {
-content: url('https://i.postimg.cc/sXTTgZQs/Untitled39.webp') !important;
+content: url('https://i.postimg.cc/1RnN7qm0/Untitled45.webp') !important;
 width: XXpx !important; }
 
 img[src$="arrow.png"] {
-content: url('https://i.postimg.cc/mDLd4SDx/Untitled40.webp') !important;
+content: url('https://i.postimg.cc/05MJXwk3/Untitled46.webp') !important;
 width: XXpx !important; }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
