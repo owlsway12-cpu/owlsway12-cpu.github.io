@@ -57,6 +57,17 @@ background-size:100%;
 color:#D9DDE1!important;
 text-shadow:0px 0px 0px (255,255,255);
 }
+/* CIRCULAR LION AND USER AVATAR */
+div#lion_image {
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin-top: 15px; /* May need adjusting */
+    margin-left: 12px /* May need adjusting */
+}
+table#player img {
+    border-radius: 50% !important;
+    overflow: hidden
+}
 
 .col-md-3 .panel {
     background: rgba(6,19,29, 0.5);
