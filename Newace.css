@@ -469,6 +469,19 @@ height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
+/* Arrows, for caves */
+
+img[src$="arrowleft.png"] {
+content: url('https://i.postimg.cc/sXTTgZQs/Untitled39.webp') !important;
+width: XXpx !important; }
+
+img[src$="arrowgrayleft.png"] {
+content: url('https://i.postimg.cc/sXTTgZQs/Untitled39.webp') !important;
+width: XXpx !important; }
+
+img[src$="arrow.png"] {
+content: url('https://i.postimg.cc/mDLd4SDx/Untitled40.webp') !important;
+width: XXpx !important; }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
