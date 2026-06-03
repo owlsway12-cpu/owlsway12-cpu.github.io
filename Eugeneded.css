@@ -396,33 +396,33 @@ select {color:black;background:white;border01px solid #D9DDE1;}
 /* CAVE / MOUND IMAGES */
 
 a[href$="542123"]>div.cave-grid>img {
-    content: url('https://i.postimg.cc/nchw3BMJ/Untitled21-20260528180710.webp') !important
+    content: url('https://i.postimg.cc/zXQMwDZB/Untitled55.webp') !important
 }
 
 a[href$=""]>div.cave-grid>img {
-    content: url('https://i.postimg.cc/PqXHyPGL/Untitled51.webp') !important
+    content: url('https://i.postimg.cc/zXQMwDZB/Untitled55.webp') !important
 }
 
 a[href$=""]>div.cave-grid>img {
-    content: url('https://i.postimg.cc/nchw3BMJ/Untitled21-20260528180710.webp') !important
+    content: url('https://i.postimg.cc/zXQMwDZB/Untitled55.webp') !important
 }
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-    content: url('https://i.postimg.cc/nchw3BMJ/Untitled21-20260528180710.webp') !important
+    content: url('https://i.postimg.cc/xT8hbJZh/Untitled54.webp') !important
 }
 
 a[href$="lionoverview.php?id=595440"]>div.cave-grid>img /* Pride Overview */ {
-    content: url('https://i.postimg.cc/PqXHyPGL/Untitled51.webp') !important
+    content: url('https://i.postimg.cc/xT8hbJZh/Untitled54.webp') !important
 }
 
 
 a[href$="unsorted.php?id=595440"]>div.cave-grid>img /* Unsorted */ {
-    content: url('https://i.postimg.cc/PqXHyPGL/Untitled51.webp') !important
+    content: url('https://i.postimg.cc/xT8hbJZh/Untitled54.webp') !important
 }
 
 
 .mound-grid img /* Mound(s) */ {
-    background: url("https://i.postimg.cc/RZFqdMkV/Untitled19.webp");
+    background: url("https://i.postimg.cc/wMGWk2rw/Untitled56.webp");
     width: 0;
     height: 0;
     padding-top: 80px;
@@ -431,38 +431,38 @@ a[href$="unsorted.php?id=595440"]>div.cave-grid>img /* Unsorted */ {
 
 /* Dynasty, achievements, etc */
 img[src$="den_ancestors.png"] /* King Dynasty */ {
-content: url('https://i.postimg.cc/7Y5XV6cF/Untitled50.webp') !important;
+content: url('https://i.postimg.cc/xjxFYjdM/Untitled53.webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; } /* Dunno what this does, but it's probably fine... */
 
 img[src$="den_ancestorsfem.png"] /* Pride Dynasty */ {
-content: url('https://i.postimg.cc/7Y5XV6cF/Untitled50.webp') !important;
+content: url('https://i.postimg.cc/xjxFYjdM/Untitled53.webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 img[src$="den_achievements.png"] /* Achievements */ {
-content: url('https://i.postimg.cc/7Y5XV6cF/Untitled50.webp') !important;
+content: url('https://i.postimg.cc/xjxFYjdM/Untitled53.webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 img[src$="den_showcase.png"] /* Showcase */ {
-content: url('https://i.postimg.cc/7Y5XV6cF/Untitled50.webp') !important;
+content: url('https://i.postimg.cc/xjxFYjdM/Untitled53.webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 img[src$="den_beetlebook.png"] /* Beetle Book */ {
-content: url('https://i.postimg.cc/7Y5XV6cF/Untitled50.webp') !important;
+content: url('https://i.postimg.cc/xjxFYjdM/Untitled53.webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
 
 /* Featured lion BG */
 img[src$="default.png"] {
-content: url('https://i.postimg.cc/qv8sbCG1/Untitled49.webp') !important;
+content: url('https://i.postimg.cc/KYDJWxVw/Untitled57.webp') !important;
 height: xxpx !important;
 opacity: 100%;
 transition: opacity 0.3s ease; }
@@ -470,15 +470,15 @@ transition: opacity 0.3s ease; }
 /* Arrows, for caves */
 
 img[src$="arrowleft.png"] {
-content: url('https://i.postimg.cc/qqhn8tRK/Untitled41.webp') !important;
+content: url('https://i.postimg.cc/1tWM9My3/Untitled58.webp') !important;
 width: XXpx !important; }
 
 img[src$="arrowgrayleft.png"] {
-content: url('https://i.postimg.cc/qqhn8tRK/Untitled41.webp') !important;
+content: url('https://i.postimg.cc/1tWM9My3/Untitled58.webp') !important;
 width: XXpx !important; }
 
 img[src$="arrow.png"] {
-content: url('https://i.postimg.cc/0jTSZ8M4/Untitled42.webp') !important;
+content: url('https://i.postimg.cc/j58vsvRX/Untitled59.webp') !important;
 width: XXpx !important; }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
@@ -515,7 +515,7 @@ div.item-header {background:#222A30; color:#06131D;}
 
  
 body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
-content: url('https://i.postimg.cc/vBNzHpHK/Untitled17.webp')
+content: url('https://i.postimg.cc/vmhtzXg7/Untitled61.webp')
 ;}
 
 .s-chat-message:nth-child(odd) {
