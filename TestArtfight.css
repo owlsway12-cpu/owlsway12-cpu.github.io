@@ -1,1 +1,479 @@
-
+/*
+* Official Stardust CSS Theme
+* Code by @cyxxie and @leafjelly
+* Assets by @leafjelly
+* Pagedoll by @Spiderccino
+* Feel free to report any bugs!
+* This code is free-to-use! You may modify as you see fit
+*/
+ 
+.container-fluid{
+ max-width:1300px!important;
+ margin:auto;
+}
+ 
+#wrapper {
+    background: url(https://images.artfight.net/resources/stardustbg.png);
+    background-color:#000;
+    background-size: 350px!important;
+    background-attachment: fixed;
+}
+ 
+ 
+/* PageDoll 
+* Adjust the margin-top to move your pagedoll up and down
+* Adjust the Height and Width to best fit your image
+* Looks best with a Transparent png
+*/
+.card-body.panel-body.profile-avatar-panel {
+    background-image: url(https://images.artfight.net/resources/wormston-200.gif) !important;
+    background-size:contain !important;
+    background-repeat:no-repeat!important;
+    background-position:center!important;
+    background:none;
+    height: 200px;
+    width: 200px;
+    border: none;
+    margin-top:-50px;
+}
+.card-body span.icon-user{display:none}
+@media screen and (max-width: 766px) {.card-body span.icon-user {display:block;background: rgba(0, 0, 0, .5);}}
+ 
+/*User Info*/
+.card.panel.float-left.d-none.d-md-block.profile-avatar-wrapper {
+  border: none;
+}
+ 
+.profile-header-background.panel-heading.bg-light.p-2.border.rounded.position-relative {
+  background-image: url(https://images.artfight.net/resources/starheader.png);
+  background-size:200px;
+  background-attachment:fixed;
+  border: #393488 solid !important;
+  padding: 12px !important;
+  border-width: 0px 0px 1px 0px !important;
+}
+ 
+.profile-header-wrapper.clearfix {
+  background:rgba(0,0,0,.8);
+  border:#6e65ff 1px solid;
+  width:84.5% !important;
+  margin-left:0;
+  display: inline-block  !important;
+}
+ 
+.profile-header-name a {
+  color:  #8fd5ff!important;
+  font-weight:normal!important;
+}
+.element-disabled.text-muted.h5, .h3.profile-header-name.text-center {
+  color: #8fd5ff!important;
+  opacity: .5 !important;
+  font-weight: normal;
+}
+.d-none.d-md-block.mt-3.profile-header-normal-status {
+  font-size:smaller;
+}
+ 
+.card-header.panel-heading{font-weight:normal;}
+.card.panel.float-left.d-none.d-md-block.profile-avatar-wrapper {
+  background: none;
+  border:none;
+}
+.panel-heading{
+  background-image: url(https://images.artfight.net/resources/starheader.png);
+  background-size:200px;
+  background-attachment:fixed;
+  border: #6e65ff solid 1px;
+  color: #a1e1f4 !important;
+}
+.username-navbar span {
+  color: #877feb!important;
+}
+ 
+.profile-header-mobile-status .card-body{
+  background:none;
+  padding:.5em;
+}
+.d-block .d-md-none .mt-3 .profile-header-mobile-status{margin:0}
+.card.profile-avatar-wrapper, .profile-header-mobile-status .card {
+    background: none; border-none;
+}
+/*Navigation Tabs*/
+.nav-tabs {
+    width: 16%;
+    margin: -0.3rem 0 -1rem -1rem !important;
+    display: inline-block !important;
+    padding: 4px !important;
+    border: none;
+    font-variant: small-caps;
+    float: right;
+ 
+.nav-tabs .nav-item {
+  text-align: center;
+  border: none;
+  background: rgba(0,0,0,.8) !important;
+}
+ 
+.nav-link.active, a.btn.btn-primary.active, .page-item.active .page-link {
+    background: #7d73ff !important;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #000 !important;
+}
+ 
+.nav-tabs .nav-item:hover, .nav-tabs .nav-link:hover {
+    background: #655ce0;
+    color: #001e39 !important;
+}
+.nav-tabs .nav-link{
+  color:#72b4d6;
+  padding:5px;
+  border: #6e65ff solid !important;
+  border-width: 1px 1px 1px 0 !important;
+  text-align:center;
+}
+ 
+/* Profile Description Box*/
+.profile-description.mb-4.clearfix {
+  margin:1rem 4px 1rem 1rem !important;
+  background: rgba(0,0,0,.8);
+  min-height: 350px !important;
+  max-height: 600px !important;
+  overflow: auto!important;
+  border: #6e65ff solid 1px;
+  padding: 20px 25px;
+  float: right;
+  width: 72%;
+}
+ 
+/* Followers and Links */
+.profile-links.col-md-6 {
+  min-width: 100%;
+  padding:0;
+}
+ 
+.profile-links .table-card{
+  font-size:small;
+}
+ 
+td a, .card-footer.panel-footer.text-right a, .panel-heading a{
+  color:#9ad2f7;
+}
+td a:hover, .card-footer.panel-footer.text-right a:hover, .panel-heading a:hover{
+  color:#54bbff;
+}
+ 
+.w-25.text-right.bg-light.active {
+  background: url() top;
+    border:#393488  solid;
+    border-width: 0 0 1px 0;
+    background-color: #121126 !important;
+    color: #d0bfd8;
+}
+.table.table-bordered.table-card {
+  background: rgba(0,0,0,0.8);
+  color:#d0bfd8!important;
+  border: #6e65ff solid;
+  border-width: 0 1px 1px 1px;
+}
+ 
+.achievement-panel .card-body.panel-body {
+    border: #6e65ff solid;
+    border-width: 0 1px 1px 1px;
+}
+ 
+.table-bordered td {
+  padding:4px 11px;
+  border: #393488  solid 1px;
+}
+ 
+ 
+td.w-25.text-right.bg-light.active {
+    font-weight: lighter;
+}
+ 
+.profile-followers.col-md-6 {
+    min-width: 100%;
+    padding:0;
+}
+ 
+.profile-followers .card-body.panel-body{
+  background:rgba(0,0,0, .8);
+  text-align: center;
+  padding: 2px 36px;
+  Height:200px;
+  overflow:auto;
+  border: #6e65ff solid;
+  border-width: 0px 1px;  
+}
+ 
+.progress {
+    background-color: #3d3460 !important;
+}
+ 
+.profile-followers .card-header.panel-heading, .profile-overall-stats .card-header.panel-heading, .profile-current-stats .card-header.panel-heading, .achievement-panel  .card-header.panel-heading {
+    border-bottom: #393488 solid 1px !important;
+}
+ 
+.card-body.panel-body,{
+  background: rgba(0,0,0,0.8);
+  overflow:auto;
+}
+ 
+.col-6.col-md-4.profile-follower {
+  min-width: 100% !important;
+  font-weight:lighter;
+  padding:2px
+}
+ 
+.card-footer.panel-footer.text-right {
+    padding: 3px;
+    background-color: #000000;
+    border: #6e65ff solid;
+    border-width: 0 1px 1px 1px !important;
+    border-top: #393488 solid 1px !important;
+}
+ 
+.btn-warning, .btn-danger, .btn-success, .btn.btn-primary, #profile-dropdown, .dropdown-menu.dropdown-menu-right.show, .btn.btn-primary.form-control.btn-submit-once   {
+    background: #7d73ff;
+    border: #6e65ff solid 1px;
+    color: #000!important;
+}
+ 
+.btn.btn-primary:hover, .btn.btn-primary.form-control.btn-submit-once:hover{
+    background: #655ce0;
+    color: #001e39 !important;
+}
+ 
+.btn-warning:hover, .alert-warning{
+    background: #a55f28;
+    border: #e2984a solid 1px;
+    color: #fadfc7 !important;
+}
+ 
+.btn-success:hover, .alert-success{
+    background: #086848;
+    border: #55ab90 solid 1px;
+    color: #a0d5b5 !important;
+}
+ 
+.btn-danger:hover, .alert-danger{
+    background: #751a1a;
+    border: #ba3f3f solid 1px;
+    color: #fca0a0 !important;
+}
+ 
+.card.panel.panel-default.mt-3 {
+  background: none;
+}
+ 
+/*Profile Galleries*/
+.card.panel.panel-default.profile-gallery-header.profile-attacks-header.mt-3{
+  width:100%;
+}
+ 
+.profile-attacks-header .panel-heading, .profile-defenses-header .panel-heading, .profile-characters-header .panel-heading {
+    font-variant:small-caps;
+}
+ 
+h2.d-flex.align-items-center.mb-0 {
+    font-size: 23px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+ 
+.card.p-1.m-1.thumb-attack.attack-thumb.thumbnail, .card.p-1.m-1.thumb-attack.character-thumb.thumbnail {
+    background: rgba(3,5,22,.7)!important;
+    border:#3851ff solid 1px!important;
+}
+.nametag.thumbnail-width.h5.p-1.my-auto.bg-light.border.rounded.text-center.text-truncate, .nametag.bookmark-character.flex-shrink-0.h5.p-1.ml-1.my-auto.bg-light.border.rounded {
+    background: #7d73ff!important;
+    border: #6e65ff solid 1px!important;
+    color: #000!important;
+    font-variant:small-caps;
+}
+ 
+.nametag.thumbnail-width.h5.p-1.my-auto.bg-light.border.rounded.text-center.text-truncate:hover, .nametag.bookmark-character.flex-shrink-0.h5.p-1.ml-1.my-auto.bg-light.border.rounded:hover{
+    background:#655ce0!important;
+    color: #001e39 !important;
+}
+ 
+.text-break i {
+  color: #000 !important;
+}
+.text-break i:hover{
+  color:#000!important;
+}
+ 
+/*Comments*/
+.comment .panel-body {
+  background: rgba(0,0,0, .8)!important;
+}
+ 
+.comments h2, h2.profile-stats-title, h2.profile-characters-title, h2.profile-attacks-title,{
+    background: rgba(0,0,0, .5);
+    padding: 2px 10px;
+    margin: 30px auto 5px auto;
+    text-align: center;
+    width: 22%;
+}
+ 
+h2.profile-defenses-title {
+    background: rgba(0,0,0, .5);
+    padding: 2px 10px;
+}
+ 
+ 
+ 
+ 
+/*Site User Interface*/
+.artfight-nav.navbar.navbar-dark.navbar-static-top.navbar-expand-md.mb-0 {
+    border-bottom: 3px #240450 solid;
+    background: #000 !important;
+}
+ 
+.navbar-brand div, .navbar-dark .navbar-nav .nav-link{
+    color: #8e7cca!important;
+}
+ 
+.navbar-brand div:hover, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #b3a5e2!important;
+}
+ 
+.dropdown-menu {
+  background: #000; color:#005758;
+}
+.dropdown-divider {
+  border-color: #83a3ee;
+}
+.dropdown-menu a, .dropdown-menu .d-flex.align-items-center {
+  color: #8e7cca!important;
+}
+.dropdown-header {
+  Color: #83a3ee;
+}
+ 
+.dropdown-menu.dropdown-menu-right.show a {
+    color: #000 !important;
+}
+ 
+.dropdown-menu.dropdown-menu-right.show a:hover {
+    background:#655ce0!important;
+}
+ 
+.badge.badge-info, .badge.badge-primary, .badge.badge-danger, {
+  background: #8ecaff;color: #000!important;
+}
+.dropdown-item:hover {
+  Background: #201730;
+  Color: #9bb0ff!important;
+}
+ 
+.alert.alert-info {
+    background: #1f4faa !important;
+    border: #4082df solid 1px;
+    color:#a2d2ff;
+}
+.alert.alert-info a {
+  color: #a2d2ff!important;
+}
+ 
+.comment a, {
+  color:#ffc5d3;
+}
+ 
+a .nav-link {
+  color: #79ffc7;
+}
+ 
+.comments .card.panel {
+  background: none;border:#6e65ff solid 1px;
+}
+ 
+.footer .contain {
+    background-color:#010010 !important;
+    border: none;
+}
+ 
+.footer .contain div{
+    color: #98aed7!important;
+}
+ 
+.footer .contain a {
+    color:#817bc6!important;
+}
+.footer .contain a:hover {
+    color: #6963ad!important;
+}
+.page-item.disabled .page-link,  .page-link:hover {
+  background: #27a89e !important;
+  border: none;
+}
+.page-link {
+  background: #27a89e;
+  border: none;
+}
+ 
+.achievement-panel .card {
+  background: rgba(0, 55, 80, .6); border:none;
+}
+ 
+p, div{
+    color:#a8c8d7;
+}
+ 
+a {
+    color:#968eff;
+}
+ 
+a:hover{
+    color:#b2acff;
+}
+ 
+/*Mobile Fixes*/
+@media screen and (max-width: 766px){
+ .container-fluid, .comments h2, h2.profile-stats-title, h2.profile-characters-title, h2.profile-attacks-title, h2.d-flex.align-items-center.mb-0 {
+    width: 100%!important;
+ }
+ 
+ .profile-header-wrapper.clearfix{
+    width: 100%!important;
+    Margin:.5rem 0!important;
+ }
+ 
+ .nav-tabs {
+     width: 100% !important;
+     float: none !important;
+     margin: .5rem 0 !important;
+     padding: 0!important;
+     display: flex!important;
+ }
+ .nav-tabs .nav-link {
+    border-width:1px !important;
+ }
+ .profile-links.col-md-6, .profile-followers.col-md-6{padding:0 1rem!important}
+ 
+  .profile-description.mb-4.clearfix {
+    float: none !important;
+    width: 100% !important;
+    Margin:.5rem 0!important;
+  }
+  .profile-body {
+    max-height: none!important;
+    min-height: auto !important;
+  }
+  .col-6.col-md-4.profile-follower {
+    height: inherit!important;
+    min-width: inherit !important;
+  }
+ 
+  .profile-followers .card-body.panel-body{
+    height: inherit !important;
+  }
+ 
+  h3.profile-header-name.text-center, .element-disabled{
+  color: #8fd5ff!important;
+  opacity: .7 ;
+  font-weight:bold !important;
+  }
+}
